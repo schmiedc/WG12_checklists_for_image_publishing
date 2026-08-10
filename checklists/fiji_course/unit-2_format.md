@@ -5,7 +5,7 @@ Topics: Crop, rotate, scale-bar
 
 ## Learning objective
 
-By the end of this unit, learners will be able to format microscopy images in Fiji (e.g., cropping and rotating) and add key annotations (e.g., scale bars) to clearly and accurately present scientific results.
+Learners should be able to format an image using cropping and rotation, and add key annotations such as scale bars, to clearly and accurately present scientific results.
 
 Time needed: 25 min
 

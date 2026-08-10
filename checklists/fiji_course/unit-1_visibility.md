@@ -13,7 +13,7 @@ Usage of histograms
 
 ## Learning objective
 
-By the end of this unit, learners will be able to process microscopy images in Fiji to clearly and accurately represent the underlying image content.
+Learners should be able to load an example image, adjust colors, brightness, and contrast, and create a merged image, in order to make the information in the image clearly visible to a wide audience and to accurately represent the underlying image content. 
 
 Time needed: 45 min
 
@@ -46,9 +46,7 @@ Another important aspect that we should also consider at this stage is the choic
 
 :::
 
-
-
-## Introduction
+## Load and prepare example images
 
 This tutorial starts with a multi-channel image ({numref}`multichannel_image`). Download a TIFF of the example image here: [multichannel_image.tif](./unit-1_resources/unit-1_examples/multichannel_image.tif).
 

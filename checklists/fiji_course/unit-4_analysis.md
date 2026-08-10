@@ -5,7 +5,7 @@ Topics: Image analysis, software versions, code, and example availability
 
 ## Learning objective
 
-By the end of this unit, learners will be able to describe how quantitative image analysis should be documented to ensure transparency and reproducibility.
+Learners should be able to perform a basic quantitative image analysis using an existing tool, document the software, tool versions, and analysis settings used, and identify what needs to be shared (code, settings files, example data) so that custom or existing analyses are transparent and reproducible by others.
 
 Time needed: 10 min
 

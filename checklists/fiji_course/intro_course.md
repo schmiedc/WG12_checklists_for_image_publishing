@@ -46,13 +46,14 @@ The units follow the image processing workflow step by step: adjusting visibilit
 
 |  |Unit|Learning objective| Time |
 |--|----------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------|
-|1.|[Unit 1: Visibility](./unit-1_visibility.md)              |Process microscopy images in Fiji to clearly and accurately represent the underlying image content.        | 45 min|
-|2.|[Unit 2: Format and annotations](./unit-2_format.md)      |Format microscopy images in Fiji (e.g., cropping and rotating) and add key annotations (e.g., scale bars). | 25 min |
-|3.|[Unit 3: Figure and availability](./unit-3_figure_prep.md)|Complete scientific image figure using a vector graphics software, adding legible annotations, figure legends, and method descriptions|15 min|
-|4.|[Unit 4: Quantification](./unit-4_analysis.md)            |Describe how quantitative image analysis should be documented to ensure transparency and reproducibility.  | 10 min |
-|5.|[Further information](./intro_background.md)           | Further supplementary topics image processing ethics and image interpolation| |
+|1.|[Unit 1: Visibility](./unit-1_visibility.md)              |Load an example image, adjust colors, brightness, and contrast, and create a merged image, in order to make the information in the image clearly visible to a wide audience and to accurately represent the underlying image content. | 45 min|
+|2.|[Unit 2: Format and annotations](./unit-2_format.md)      |Format an image using cropping and rotation, and add key annotations such as scale bars, to clearly and accurately present scientific results. | 25 min |
+|3.|[Unit 3: Figure and availability](./unit-3_figure_prep.md)|Create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions, and make the underlying image data available in a public repository, so that the data and image processing are fully documented and communicated.|15 min|
+|4.|[Unit 4: Quantification](./unit-4_analysis.md)            |Perform a basic quantitative image analysis using an existing tool, document the software, tool versions, and analysis settings used, and identify what needs to be shared (code, settings files, example data) so that custom or existing analyses are transparent and reproducible by others.| 10 min |
 
 Total time for course about 1-2 hours. Each teaching unit is self-contained and can be executed individually. The individual tasks performed in each unit can also be followed using the condensed checklist (see {numref}`figure-checklist`).
+
+For more content on image processing ethics and image interpolation, see [Further information](./intro_background.md).   
 
 ## Materials
 
@@ -61,8 +62,7 @@ For this tutorial you are going to need:
 - Fiji is just ImageJ (Fiji): [https://fiji.sc/](https://fiji.sc/) tested with Version ImageJ 2.18.0/1.54p; Java 21.0.7 (64-bit)
 - Inkscape: [https://inkscape.org/](https://inkscape.org/) tested with v1.4.3
 
-
-The course shown here contains all necessary image data as a download. Alternatively, the input, processed, and result images can also be downloaded from a [Zenodo repository](https://doi.org/10.5281/zenodo.19852464).
+The course shown here contains all necessary image data as a download. 
 
 :::{note}
 
@@ -80,6 +80,8 @@ Schmied C. and Jambor HK. Effective image visualization for publications – a w
 Images for the examples were published here: 
 
 Wolff C. et al. Morphological profiling data resource enables prediction of chemical compound properties. iScience 2025 ([doi: 10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445))
+
+Input, processed, and result images can also be downloaded from a [Zenodo repository](https://doi.org/10.5281/zenodo.19852464).
 
 ## Help
 

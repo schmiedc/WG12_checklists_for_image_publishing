@@ -6,7 +6,7 @@ Topics: Create a figure with Inkscape, annotation, figure legends, and image ava
 
 ## Learning objective
 
-Learners will be able to create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions that accurately document and communicate the underlying data and image processing.
+Learners should be able to create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions, and make the underlying image data available in a public repository. The data and image processing are fully documented and communicated.
 
 Time needed: 15 min
 
