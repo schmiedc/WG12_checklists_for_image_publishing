@@ -1,7 +1,7 @@
 (intro_background)=
-# Background information
+# Further information: ethics and image interpolation
 
-This section provides additional background material with more in-depth information on ethical image processing and discusses the problem of interpolation of images.
+This section provides additional material with more in-depth information on ethical image processing and discusses the problem of interpolation of images.
 
 ## Table of content
 

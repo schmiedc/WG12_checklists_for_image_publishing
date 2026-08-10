@@ -3,6 +3,12 @@
 
 Topics: Image analysis, software versions, code, and example availability
 
+## Learning objective
+
+By the end of this unit, learners will be able to describe how quantitative image analysis should be documented to ensure transparency and reproducibility.
+
+Time needed: 10 min
+
 ## Motivation
 
 Quantitative results are stronger than qualitative results alone. However, it is critical that the analysis, the tools used, and their settings are all properly documented in the methods. For a custom analysis, the workflow or code itself should be shared so others can reproduce it. 
@@ -13,14 +19,6 @@ Quantitative results are stronger than qualitative results alone. However, it is
 - Cite the software tool and specify the version.
 - Describe the workflow.
 - Disclose critical parameters.
-
-## Learning objective
-
-By the end of this unit, learners will be able to describe how quantitative image analysis should be documented to ensure transparency and reproducibility.
-
-<!---
-TODO: Specify time for unit
--->
 
 ## Introduction
 

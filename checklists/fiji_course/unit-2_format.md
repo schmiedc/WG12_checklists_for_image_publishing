@@ -3,6 +3,12 @@
 
 Topics: Crop, rotate, scale-bar
 
+## Learning objective
+
+By the end of this unit, learners will be able to format microscopy images in Fiji (e.g., cropping and rotating) and add key annotations (e.g., scale bars) to clearly and accurately present scientific results.
+
+Time needed: 25 min
+
 ## Motivation
 
 Scientific image figures communicate scientific results in a qualitative manner. Therefore, it is important that the result is readily apparent in the image figure without distorting or degrading the information. 
@@ -13,15 +19,6 @@ Additionally, scientific images capture real world objects that have a physical 
 
 - Is the communicated result readily apparent?
 - Are key annotations, e.g., scale bar, present?
-
-## Learning objective
-
-By the end of this unit, learners will be able to format microscopy images in Fiji (e.g., cropping and rotating) and add key annotations (e.g., scale bars) to clearly and accurately present scientific results.
-
-<!---
-TODO: Specify time needed for unit
--->
-
 
 ## Introduction
 
@@ -132,9 +129,9 @@ Cropping via duplication of the content of the ROI.
 
 Sometimes the visualization in the images also benefits from rotating the objects. This can be achieved by:
 
-Image > Transform > Rotate 90 Degrees...
+Image > Transform > Rotate 90 Degrees Right or Rotate 90 Degrees Left
 
-Image > Transform > Flip...
+Image > Transform > Flip Horizontally or Vertically
 
 :::::{important} 
 
@@ -219,7 +216,7 @@ The width of the scale bar should be in relation to the shown object.
 
 The size of the scale bar can also be specified in the figure legend. 
 
-An acceptable alternative to a scale bar is to specify the physical dimension of the entire image. However, just stating the magnification of the detection lens is not sufficient, as the actual pixel size also depends on the objective's numerical aperture and detector-side factors such as camera pixel size, additional optics, sampling rate, or binning — two images at the same nominal magnification can therefore cover very different physical fields of view (see [Image Brightness](https://evidentscientific.com/en/microscope-resource./imagebrightness) for more on how numerical aperture and magnification interact).
+An acceptable alternative to a scale bar is to specify the physical dimension of the entire image. However, just stating the magnification of the detection lens is not sufficient, as the actual pixel size also depends on the objective's numerical aperture and detector-side factors such as camera pixel size, additional optics, sampling rate, or binning. Thus, two images at the same nominal magnification can therefore cover very different physical fields of view.
 
 :::
 

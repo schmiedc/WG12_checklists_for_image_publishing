@@ -11,6 +11,12 @@ Gray values
 Usage of histograms
 -->
 
+## Learning objective
+
+By the end of this unit, learners will be able to process microscopy images in Fiji to clearly and accurately represent the underlying image content.
+
+Time needed: 45 min
+
 ## Motivation
 
 Microscopy images are data that document a scientific result. To communicate the scientific result in an image figure effectively and truthfully, images typically need to be processed. This processing can go wrong, and the image figure can then fail to clearly and correctly communicate the underlying data ({numref}`image_presentation`):
@@ -40,13 +46,6 @@ Another important aspect that we should also consider at this stage is the choic
 
 :::
 
-## Learning objective
-
-By the end of this unit, learners will be able to process microscopy images in Fiji to clearly and accurately represent the underlying image content.
-
-<!---
-TODO: Specify time for unit
--->
 
 
 ## Introduction
@@ -139,7 +138,7 @@ Further,  each image also has different brightness and contrast settings, thus b
 
 :::{tip}
 
-Fiji allows to record most processing steps that are carried out, including the settings using the macro recorder. This can be used to create a script to automatically process multiple images, but could also be used to document the processing. 
+Fiji allows you to record most processing steps that are carried out, including the settings using the macro recorder. This can be used to create a script to automatically process multiple images, but could also be used to document the processing. 
 
 Record used functions and settings: Plugins > Macros > Record...
 :::
@@ -147,7 +146,7 @@ Record used functions and settings: Plugins > Macros > Record...
 
 ## Colors
 
-The colors are part of a [Look up tables (LUT)](https://neubias.github.io/training-resources/lut/index.html) that assign specific color values to the pixel values. One can change the color LUT for each image using: 
+The colors are part of a [Look up tables (LUT)](https://imagej.net/imaging/visualization) that assign specific color values to the pixel values. One can change the color LUT for each image using: 
 
 Image > Lookup Tables
 
