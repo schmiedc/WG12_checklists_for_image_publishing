@@ -33,15 +33,15 @@ The spatial dimension is represented as pixels in 2D or voxels in 3D volumes. Th
 :name: sampling
 :width: 100%
 
-Illustration demonstrating sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline (i.e., analog). (B) A modern microscope samples this analog object (yellow grid lines) and transforms (digitizes) it into a digital representation, thus discretizing the space into pixels and the intensity into different gray values. (C) The sampled cell as a digital image; note the loss of spatial information due to the sampling.
+Illustration demonstrating sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline (i.e., analog). (B) A modern microscope samples this analog object (yellow grid lines) and transforms (digitizes) it into a digital representation, thus discretizing the space into pixels and the intensity into different gray values. (C) The sampled cell as a digital image; note the clear loss of information due to the sampling.
 ```
 
 ```{admonition} Think about it
 :class: tip
 
-The above example is extreme to illustrate a point. However, image acquisition always means some loss of information. Can you think of why this is unavoidable?
+The above example is extreme to illustrate a point. However, image acquisition always means some loss of information. Can you think of why this is unavoidable? 
 
-:::
+```
 
 Finally, the light intensity that the microscope captures is represented as different shades of gray of each pixel or voxel.
 
