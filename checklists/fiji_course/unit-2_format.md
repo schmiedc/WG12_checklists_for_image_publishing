@@ -24,6 +24,8 @@ Additionally, scientific images capture real world objects that have a physical 
 
 We start with the result of [Unit 1: Visibility](./unit-1_visibility.md), the composite image with adjusted colors, brightness, and contrast. You can download the image here: [composite.tif](./unit-1_resources/merge/composite.tif).
 
+If you came directly from Unit 1, you can also use your own processed composite.tif as the starting point for this unit.
+
 Open Fiji.
 
 Then open the image in Fiji: 
@@ -46,7 +48,7 @@ To clearly communicate the result, the image needs to be further processed and a
 
 :::{tip}
 
-Work on a copy of the image: Image > Duplicate... (Ctrl + Shift + D)
+Work on a copy of the image: Image > Duplicate... (Ctrl + Shift + D; Mac: ⌘ + Shift + D)
 
 :::
 
@@ -92,7 +94,7 @@ File > Save As > Tiff...
 
 In a TIFF image, the overlay will be saved as an additional layer (i.e., header of a TIFF file), independent of the actual image content. Thus, any overlays will be added non-destructively. The scale information, as well as other basic metadata, is also saved in this additional information layer. You can access this metadata via:
 
-Image > Show Info (Ctrl + I)
+Image > Show Info (Ctrl + I; Mac: ⌘ + Shift + I)
 
 This is in contrast to other image formats such as PNG. Here, the overlay will be burned into the image itself.
 
@@ -100,7 +102,7 @@ This is in contrast to other image formats such as PNG. Here, the overlay will b
 
 The part of the image within the ROI can now be cropped using: 
 
-Image > Crop... (Ctrl + Shift + X)
+Image > Crop... (Ctrl + Shift + X; Mac: ⌘ + Shift + X)
 
 
 ```{figure} ./unit-2_resources/crop/crop.png
@@ -237,9 +239,11 @@ What could be relevant is to dicuss adding timestamps in movies, or frame of mov
 
 --->
 
-## Result
+## Result and next unit
 
-You can download the result of [Unit 2: Format and annotations](./unit-2_format.md) here: [composite_scale.tif](./unit-2_resources/unit-2_examples/composite_scale.tif) and [composite_crop_scale.tif](./unit-2_resources/unit-2_examples/composite_crop_scale.tif).
+You can download the result of [Unit 2: Format and annotations](./unit-2_format.md) here: [composite_scale.tif](./unit-2_resources/unit-2_examples/composite_scale.tif) and [composite_crop_scale.tif](./unit-2_resources/unit-2_examples/composite_crop_scale.tif). 
+
+The result images will be used in [Unit 3: Figure and availability](./unit-3_figure_prep.md), where we will create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions, and make the underlying image data available in a public repository.
 
 ## Bonus: ROI Manager and overlays
 

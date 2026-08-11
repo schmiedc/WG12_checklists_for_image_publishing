@@ -156,11 +156,11 @@ For the image figure of the example image, we want to visualize channel 1 (mitoc
 
 Channel 4 "C4-multichannel_image.tif" will not be further processed.
 
-:::{IMPORTANT}
+:::{note}
 
 For the visualization of a merged color image, we generally recommend using only up to three channels, since three channels can still be easily differentiated using standard LUT choices.
 
-For visualizing more than three channels, we recommend presenting the individual channels in gray-scale side by side. Thus, channel 4 will not be further processed in this course.
+For visualizing more than three channels, we recommend presenting the individual channels in gray-scale side by side. Thus, channel 4 will not be further processed.
 
 :::
 
@@ -182,7 +182,7 @@ Also consider the different visibility of different colors on different backgrou
 
 :::
 
-Channel 2 presents already in the green color LUT, defined by in the microscope settings and part of the image metadata. To channel 3, we can apply the color LUT:
+Channel 2 presents already in the green color LUT, defined by in the microscope settings and part of the image metadata. To channel 3, we can use the color LUT:
 
 Select image: C3-multichannel_image.tif
 
@@ -286,6 +286,8 @@ Brightness/Contrast interface:
 
 In our experience, the only setting that needs to be regularly adjusted is the maximum intensity slider to make the information in the image more visible. Often cycling through a number of "Auto" settings and observing the effect on the visualization can generate good display settings. Typically, the default minimum setting is set to the lowest intensity value present in the image and is good enough. 
 
+The figure processing we demonstrate the full image information (i.e. full resolution with full 16-bit) is also preserved until the final step. Thus hitting the "Apply" button is not needed at any point in this course. 
+
 :::{important}
 Do not cut off information in the lower intensities, e.g., removing structures close to the background to make the images prettier. 
 
@@ -356,7 +358,7 @@ Channel 3: Min = 36; Max = 1270
 The information in the image is now clearly visible in the display without large loss of data (i.e., loss of low intensity information or oversaturation).
 
 :::{important}
-For correct qualitative comparisons, it is vital to apply the same min & max values on all the images that are compared. 
+For correct qualitative comparisons, it is vital to use the same min & max values on all the images that are compared. 
 
 For multi-channel images, the same settings across the channels might not be feasible, as the signal might have a different intensity distribution. It is important to use the same settings on the equivalent channels in the images that one wants to compare.
 :::
@@ -371,7 +373,6 @@ Select image one of the channels: C1-multichannel_image.tif
 
 Provide calibration bar: Analyze > Tools > Calibration Bar…
 
-
 ```{figure} ./unit-1_resources/brightness_contrast/calibration_bar.png
 :alt: In
 :align: center
@@ -380,6 +381,8 @@ Provide calibration bar: Analyze > Tools > Calibration Bar…
 
 Calibration bar
 ```
+
+In this course, we provide the minimum and maximum settings in the methods and the original images used for the image figure in a Zenodo repository. Since our example does not use calibrated intensity values, an additional calibration bar is not needed here.
 
 :::{important}
 Applied Brightness/Contrast adjustments or, in general, bit depth reduction (e.g., 16-bit converted down to 8-bit) represent a loss of information! Such images should, in general, not be used for quantitative image analysis. In particular, intensity quantification must not be performed on such images. 
@@ -419,11 +422,15 @@ The image then gets merged into a composite image (i.e., all channels are still 
 Composite image
 ```
 
+## Result and next unit
+
 Download a TIFF of the result image here: [composite.tif](./unit-1_resources/merge/composite.tif).
+
+We will use the result in [Unit 2: Format and annotations](./unit-2_format.md), where we will learn to format an image using cropping and rotation, and add key annotations such as scale bars.
 
 :::{note}
 
-Merging more than three color channels into a single image is tricky, as the different combined colors might not be easily distinguished anymore by eye — additive color mixing produces intermediate hues that the eye cannot reliably trace back to individual channels, so channel-specific information is effectively lost. This is only tolerable when the objects in different channels are well separated, which is often not the case for biological information. Thus, we in general recommend to visualize more than 3 channels separately, ideally using gray scale images. 
+Merging more than three color channels into a single image is tricky, as the different combined colors might not be easily distinguished anymore by eye, additive color mixing produces intermediate hues that the eye cannot reliably trace back to individual channels, so channel-specific information is effectively lost. This is only tolerable when the objects in different channels are well separated, which is often not the case for biological information. Thus, we in general recommend to visualize more than 3 channels separately, ideally using gray scale images. 
 
 :::
 

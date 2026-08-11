@@ -6,7 +6,7 @@ Topics: Create a figure with Inkscape, annotation, figure legends, and image ava
 
 ## Learning objective
 
-Learners should be able to create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions, and make the underlying image data available in a public repository. The data and image processing are fully documented and communicated.
+Learners should be able to create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions, and make the underlying image data available in a public repository, so that the data and image processing are fully documented and communicated.
 
 Time needed: 15 min
 
@@ -358,3 +358,7 @@ To make your work easier, you can add the macro that we created in [Unit 1: Visi
 Examples of different repositories. Overview provided by [Cimini 2023](https://doi.org/10.5281/zenodo.7628604).
 ```
 As long as it is legally and technically feasible, the original images as well as the final processed images should be made available in public repositories. The original images should be provided losslessly compressed, along with any ground truth or manual annotations.
+
+## Next unit
+
+In the final [Unit 4: Quantification](./unit-4_analysis.md), we will complete the course by performing a basic quantitative image analysis using an existing tool, documenting the software, tool versions, and analysis settings used, and identifying what needs to be shared (code, settings files, example data).
