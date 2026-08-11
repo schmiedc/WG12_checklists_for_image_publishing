@@ -69,6 +69,12 @@ You can download the result here: [composite_treat_scale.tif](./unit-3_resources
 
 ## Figure setup
 
+The final image figure qill be created in a vector graphics program (i.e. Inkscape). For exporting the raster graphics images as vector graphics files we are going to use the Biovoxxel Figure tools plugin. 
+
+For more information on what raster graphics are and why we want to use vector graphics head here: [Raster graphics and interpolation](./interpolation.md).
+
+We can install this plugin via an update site:
+
 Help > Update...
 
 
