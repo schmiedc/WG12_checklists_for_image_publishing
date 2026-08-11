@@ -84,7 +84,7 @@ Wolff C. et al. Morphological profiling data resource enables prediction of chem
 
 Input, processed, and result images can also be downloaded from a [Zenodo repository](https://doi.org/10.5281/zenodo.19852464).
 
-## Further information: Image acquistion
+## Further material: Image acquistion
 
 This course assumes that well-acquired images are already available. Image acquisition presents its own challenges and pitfalls and care must be taken to acquire images at appropriate resolution and with proper intensity sampling. 
 
@@ -101,7 +101,7 @@ Information for reporting:
 
 - Montero Llopis, P., Senft, R.A., Ross-Elliott, T.J. et al. Best practices and tools for reporting reproducible fluorescence microscopy methods. Nat Methods 18, 1463–1476 (2021). [https://doi.org/10.1038/s41592-021-01156-w](https://doi.org/10.1038/s41592-021-01156-w)
 
-## Further information: Ethical image processing
+## Further material: Ethical image processing
 
 Further, Unit 1 to Unit 4 give recommendations on how to perform image processing for good scientific image visualization. We do not directly discuss intentional or misleading image manipulation (e.g., fraudulent duplication or reuse of image data). For considerations on ethical image processing, we have created the section: [Ethical image processing](./image_ethics.md).
 
