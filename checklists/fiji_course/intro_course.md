@@ -71,7 +71,8 @@ We selected Fiji and Inkscape because they are free, open source, and familiar t
 We recommend to use the latest versions of these programs. 
 :::
 
-## Further material
+
+## Further material for image publication
 
 Cheatsheets for creating image figures:
 
@@ -82,6 +83,33 @@ Images for the examples were published here:
 Wolff C. et al. Morphological profiling data resource enables prediction of chemical compound properties. iScience 2025 ([doi: 10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445))
 
 Input, processed, and result images can also be downloaded from a [Zenodo repository](https://doi.org/10.5281/zenodo.19852464).
+
+## Further information: image acquistion and ethical image processing
+
+This course assumes that well-acquired images are already available. Image acquisition presents its own challenges and pitfalls and care must be taken to acquire images at appropriate resolution and with proper intensity sampling. 
+
+For image acquisition to be reproducible, the materials and methods also need to be documented properly, and each image should contain all necessary metadata.
+
+For further information on image acquisition, we have listed some key papers here:
+
+- Brown CM. Fluorescence microscopy--avoiding the pitfalls. J Cell Sci. 2007 May 15;120(Pt 10):1703-5. doi: [10.1242/jcs.03433](https://doi.org/10.1242/jcs.03433)
+- Pawley J. The 39 steps: a cautionary tale of quantitative 3-D fluorescence microscopy. Biotechniques. 2000 May;28(5):884-6, 888. doi: [10.2144/00285bt01](https://doi.org/10.2144/00285bt01)
+- North AJ. Seeing is believing? A beginners' guide to practical pitfalls in image acquisition. J Cell Biol. 2006 Jan 2;172(1):9-18. doi: [10.1083/jcb.200507103](https://doi.org/10.1083/jcb.200507103)
+- Waters JC. Accuracy and precision in quantitative fluorescence microscopy. J Cell Biol. 2009 Jun 29;185(7):1135-48. doi: [10.1083/jcb.200903097](https://doi.org/10.1083/jcb.200903097)
+
+Information for reporting:
+
+- Montero Llopis, P., Senft, R.A., Ross-Elliott, T.J. et al. Best practices and tools for reporting reproducible fluorescence microscopy methods. Nat Methods 18, 1463–1476 (2021). [https://doi.org/10.1038/s41592-021-01156-w](https://doi.org/10.1038/s41592-021-01156-w)
+
+Further, Unit 1 to Unit 4 give recommendations on how to perform image processing for good scientific image visualization. We do not directly discuss intentional or misleading image manipulation (e.g., fraudulent duplication or reuse of image data). For considerations on ethical image processing, we have created the section [Ethical image processing](./image_ethics.md).
+
+Further reading on this topic: 
+
+- Cromey DW. Avoiding twisted pixels: ethical guidelines for the appropriate use and manipulation of scientific digital images. Sci Eng Ethics. 2010 Dec;16(4):639-67. doi: [10.1007/s11948-010-9201-y](https://doi.org/10.1007/s11948-010-9201-y)
+
+- Cromey DW. Digital images are data: and should be treated as such. Methods Mol Biol. 2013;931:1-27. doi: [10.1007/978-1-62703-056-4_1](https://doi.org/10.1007/978-1-62703-056-4_1)
+
+- Bik EM, Casadevall A, Fang FC. 2016. The Prevalence of Inappropriate Image Duplication in Biomedical Research Publications. mBio 7. doi: [10.1128/mbio.00809-16](https://doi.org/10.1128/mbio.00809-16)
 
 ## Help
 
