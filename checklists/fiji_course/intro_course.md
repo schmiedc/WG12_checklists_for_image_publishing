@@ -86,9 +86,9 @@ Input, processed, and result images can also be downloaded from a [Zenodo reposi
 
 ## Further material: Image acquistion
 
-This course assumes that well-acquired images are already available. Image acquisition presents its own challenges and pitfalls and care must be taken to acquire images at appropriate resolution and with proper intensity sampling. 
+This course assumes that well-acquired images are already available. Image acquisition presents its own challenges and care must be taken to acquire images at appropriate resolution and with proper intensity sampling. 
 
-For image acquisition to be reproducible, the materials and methods also need to be documented properly, and each image should contain all necessary metadata.
+For image acquisition to be reproducible, the materials and methods also need to be documented properly, and each image should be supported by all necessary metadata.
 
 For further information on image acquisition, we have listed some key papers here:
 
@@ -103,7 +103,7 @@ Information for reporting:
 
 ## Further material: Ethical image processing
 
-Further, Unit 1 to Unit 4 give recommendations on how to perform image processing for good scientific image visualization. We do not directly discuss intentional or misleading image manipulation (e.g., fraudulent duplication or reuse of image data). For considerations on ethical image processing, we have created the section: [Ethical image processing](./image_ethics.md).
+This course gives recommendations on how to perform image processing for good scientific image visualization. We do not directly discuss intentional or misleading image manipulation (e.g., fraudulent duplication or reuse of image data). For considerations on ethical image processing, we have created the section: [Ethical image processing](./image_ethics.md).
 
 Further reading on this topic: 
 
