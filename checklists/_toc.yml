@@ -24,6 +24,7 @@ parts:
     - file: fiji_course/intro_background.md
       sections:
       - file: fiji_course/image_ethics.md
+      - file: fiji_course/image_histogram.md
       - file: fiji_course/interpolation.md
   - caption: "4. Other resources"
     chapters:
