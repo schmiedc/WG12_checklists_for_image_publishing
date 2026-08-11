@@ -149,7 +149,15 @@ Record used functions and settings: Plugins > Macros > Record...
 
 The colors are part of a [Look up tables (LUT)](https://imagej.net/imaging/visualization) that assign specific color values to the pixel values. 
 
-For the image figure of the example image, we want to visualize channel 1 (mitochondria), channel 2 (cytoskeleton), and channel 3 (nucleus). Here we choose the following color scheme:
+:::{Important}
+
+For color choice, consider that a part of the population is color blind (e.g., red - green blindness) — pairing red and green channels makes the figure unreadable for them and erases the very contrast you intended to show. You can simulate how your multichannel images appear with different color blindness using Image > Color > Simulate Color Blindness.
+
+Also consider the different visibility of different colors on different backgrounds, for instance, dark blue is hard to perceive on a black background; a cyan LUT would be better. Thus, LUTs combinations should be used that visualize images well and for a broad audience. In our experience, the combination of magenta, green, and cyan works well. 
+
+:::
+
+For the image figure of the example image, we want to visualize channel 1 (mitochondria), channel 2 (cytoskeleton), and channel 3 (nucleus). Here we choose the following color scheme that takes color blindness into account:
 
 |Channel  |Cellular Compartment                               |LUT    |
 |---------|---------------------------------------------------|-------|
@@ -157,16 +165,15 @@ For the image figure of the example image, we want to visualize channel 1 (mitoc
 |2        |F-actin cytoskeleton, Golgi, plasma membrane       |Green  |
 |3        |Nucleus                                            |Cyan   |
 
-Channel 4 "C4-multichannel_image.tif" will not be further processed.
-
 :::{note}
+
+Channel 4 "C4-multichannel_image.tif" will not be further processed.
 
 For the visualization of a merged color image, we generally recommend using only up to three channels, since three channels can still be easily differentiated using standard LUT choices.
 
 For visualizing more than three channels, we recommend presenting the individual channels in gray-scale side by side. Thus, channel 4 will not be further processed.
 
 :::
-
 
 To change the LUT select the image showing a specific channel and then select the LUT using: 
 
@@ -175,15 +182,6 @@ Image > Lookup Tables > [Select LUT]
 For instance image: C1-multichannel_image.tif
 
 Image > Lookup Tables > Magenta
-
-
-:::{Important}
-
-For color choice, consider that a part of the population is color blind (e.g., red - green blindness) — pairing red and green channels makes the figure unreadable for them and erases the very contrast you intended to show. You can simulate how your multichannel images appear with different color blindness using Image > Color > Simulate Color Blindness.
-
-Also consider the different visibility of different colors on different backgrounds, for instance, dark blue is hard to perceive on a black background; a cyan LUT would be better. Thus, LUTs combinations should be used that visualize images well and for a broad audience. In our experience, the combination of magenta, green, and cyan works well. 
-
-:::
 
 Channel 2 presents already in the green color LUT, defined by in the microscope settings and part of the image metadata. To channel 3, we can use the color LUT:
 
