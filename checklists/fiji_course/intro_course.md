@@ -53,7 +53,7 @@ The units follow the image processing workflow step by step: adjusting visibilit
 
 Total time for course about 1-2 hours. Each teaching unit is self-contained and can be executed individually. The individual tasks performed in each unit can also be followed using the condensed checklist (see {numref}`figure-checklist`).
 
-For more content on image processing ethics and image interpolation, see [Further information](./intro_background.md).   
+For more content on image processing ethics and image interpolation, see: [Further information](./intro_background.md).   
 
 ## Materials
 
@@ -72,7 +72,7 @@ We recommend to use the latest versions of these programs.
 :::
 
 
-## Further material for image publication
+## Further material: Image publication
 
 Cheatsheets for creating image figures:
 
@@ -84,7 +84,7 @@ Wolff C. et al. Morphological profiling data resource enables prediction of chem
 
 Input, processed, and result images can also be downloaded from a [Zenodo repository](https://doi.org/10.5281/zenodo.19852464).
 
-## Further information: image acquistion and ethical image processing
+## Further information: Image acquistion
 
 This course assumes that well-acquired images are already available. Image acquisition presents its own challenges and pitfalls and care must be taken to acquire images at appropriate resolution and with proper intensity sampling. 
 
@@ -101,7 +101,9 @@ Information for reporting:
 
 - Montero Llopis, P., Senft, R.A., Ross-Elliott, T.J. et al. Best practices and tools for reporting reproducible fluorescence microscopy methods. Nat Methods 18, 1463–1476 (2021). [https://doi.org/10.1038/s41592-021-01156-w](https://doi.org/10.1038/s41592-021-01156-w)
 
-Further, Unit 1 to Unit 4 give recommendations on how to perform image processing for good scientific image visualization. We do not directly discuss intentional or misleading image manipulation (e.g., fraudulent duplication or reuse of image data). For considerations on ethical image processing, we have created the section [Ethical image processing](./image_ethics.md).
+## Further information: Ethical image processing
+
+Further, Unit 1 to Unit 4 give recommendations on how to perform image processing for good scientific image visualization. We do not directly discuss intentional or misleading image manipulation (e.g., fraudulent duplication or reuse of image data). For considerations on ethical image processing, we have created the section: [Ethical image processing](./image_ethics.md).
 
 Further reading on this topic: 
 
