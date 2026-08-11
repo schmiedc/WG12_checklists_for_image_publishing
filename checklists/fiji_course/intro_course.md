@@ -84,6 +84,7 @@ Wolff C. et al. Morphological profiling data resource enables prediction of chem
 
 Input, processed, and result images can also be downloaded from a [Zenodo repository](https://doi.org/10.5281/zenodo.19852464).
 
+(further-material-acquisition)=
 ## Further material: Image acquistion
 
 This course assumes that well-acquired images are already available. Image acquisition presents its own challenges and care must be taken to acquire images at appropriate resolution and with proper intensity sampling. 

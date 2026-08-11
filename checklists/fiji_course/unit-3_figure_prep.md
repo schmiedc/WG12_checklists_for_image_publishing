@@ -343,7 +343,9 @@ Citations:
 
 :::{tip}
 
-To make your work easier, you can add the macro that we created in [Unit 1: Visibility](./unit-1_visibility.md) together with your original and processed images as documentation instead of specifying the brightness contrast settings. 
+The exact brightness contrast settings for each channel is dependent on the exact intensity distribution in each single-channel image. For further information how to adjust brightness contrast look go to {ref}`brightness-contrast`.
+
+To make your work easier, you can add the macro that we created in {ref}`bonus-macro-recorder` together with your original and processed images as documentation instead of specifying the brightness contrast settings. 
 
 :::
 

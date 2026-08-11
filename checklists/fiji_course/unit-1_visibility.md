@@ -46,6 +46,9 @@ Another important aspect that we should also consider at this stage is the choic
 
 :::
 
+A further foundational consideration is also that the image used for visualization is of sufficient quality. We have collected material concerning correct image acquistion here: {ref}`further-material-acquisition`.
+
+
 ## Load and prepare example images
 
 This tutorial starts with a multi-channel image ({numref}`multichannel_image`). Download a TIFF of the example image here: [multichannel_image.tif](./unit-1_resources/unit-1_examples/multichannel_image.tif).
@@ -61,7 +64,7 @@ Open Fiji.
 Fiji task bar
 ```
 
-Then open the image in Fiji: 
+Then open the multi-channel image in Fiji: 
 
 File > Open... (or drag and drop image into Fiji task bar)
 
@@ -80,7 +83,7 @@ Work on a copy of the image: Image > Duplicate... (Ctrl + Shift + D; Mac: ⌘ + 
 
 :::
 
-In order to process individual channels, we need to first split the images.
+In order to process individual channels, we need to first split the multi-channel image into single channels.
 
 Image > Color > Split Channels
 
@@ -124,15 +127,15 @@ Each of the channels encodes different cellular compartments.
 |3        |C3-multichannel_image.tif | Nucleus                                           |
 |4        |C4-multichannel_image.tif | Endoplasmic reticulum, Nucleoli, cytoplasmic RNA  |
 
-As you can see, the images are displayed using different colors. Typically, microscopy images are grayscale images, and the colors are chosen to make the image information easier to understand for humans. The color could, for instance, communicate different cellular compartments, e.g., nuclei = cyan, cytoskeleton = green.
+As you can see, the individual channels are displayed using different colors. Typically, microscopy images are grayscale images, and the colors are chosen to make the image information easier to understand for humans. The color could, for instance, communicate different cellular compartments, e.g., nuclei = cyan, cytoskeleton = green.
 
 :::{note}
 
-The images have been acquired using a [Spinning Disk Confocal Microscope](https://doi.org/10.1247/csf.27.349) using a sCMOS camera that acquires grayscale images. Most microscope systems acquire images in grayscale. This is different from natural images (i.e., photography), where different camera sensors are used that produce Red, Green, and Blue (RGB) images. 
+The multi-channel image has been acquired using a [Spinning Disk Confocal Microscope](https://doi.org/10.1247/csf.27.349) using a sCMOS camera that acquires grayscale images. Most microscope systems acquire images in grayscale. This is different from natural images (i.e., photography), where different camera sensors are used that produce Red, Green, and Blue (RGB) images. 
 
 :::
 
-Further,  each image also has different brightness and contrast settings, thus being more or less visible. Colors, as well as the brightness and contrast settings, need to be adjusted to visualize the image effectively.  
+Further, each channel also has different brightness and contrast settings, thus being more or less visible. Colors, as well as the brightness and contrast settings, need to be adjusted to visualize the image effectively.  
 
 :::{tip}
 
@@ -165,7 +168,7 @@ For visualizing more than three channels, we recommend presenting the individual
 :::
 
 
-To change the LUT select the image and then select the LUT using: 
+To change the LUT select the image showing a specific channel and then select the LUT using: 
 
 Image > Lookup Tables > [Select LUT]
 
@@ -216,7 +219,7 @@ Channel 3
 
 :::{important}
 
-Since the perception of the information in the image is influenced by the color choice, we recommend including gray-scale images at least in the supplements. 
+Since the perception of the information in an image is influenced by the color choice, we recommend including gray-scale images at least in the supplements. 
 
 :::
 
@@ -232,11 +235,12 @@ Image > Color > Invert LUTs
 
 :::
 
+(brightness-contrast)=
 ## Brightness and Contrast
 
 Images vary in visibility depending on their brightness and contrast settings. This is because the intensity range (i.e., pixel or gray values) of images typically acquired using microscopes (e.g., 16-bit images have 65,536 unique values) is much larger than the intensity range that can be displayed on computer screens or even the intensity range that the human eye can perceive (i.e., closer to 8-bit or 256 unique values). Thus, the available intensity range must be adjusted. In Fiji, this is achieved using the Brightness/Contrast setting. 
 
-As you can see in our example images, in some panels, the information is not well visible. 
+As you can see in our example single-channel images, in some panels, the information is not well visible. 
 
 ::::{grid} 3
 :gutter: 2
@@ -355,7 +359,7 @@ Channel 3: Min = 36; Max = 1270
 
 ::::
 
-The information in the image is now clearly visible in the display without large loss of data (i.e., loss of low intensity information or oversaturation).
+The information in the single-channel image is now clearly visible in the display without large loss of data (i.e., loss of low intensity information or oversaturation).
 
 :::{important}
 For correct qualitative comparisons, it is vital to use the same min & max values on all the images that are compared. 
@@ -382,7 +386,7 @@ Provide calibration bar: Analyze > Tools > Calibration Bar…
 Calibration bar
 ```
 
-In this course, we provide the minimum and maximum settings in the methods and the original images used for the image figure in a Zenodo repository. Since our example does not use calibrated intensity values, an additional calibration bar is not needed here.
+In this course, we provide the minimum and maximum settings in the methods for each channel and the original image used for the image figure in a Zenodo repository. Since our example does not use calibrated intensity values, an additional calibration bar is not needed.
 
 :::{important}
 Applied Brightness/Contrast adjustments or, in general, bit depth reduction (e.g., 16-bit converted down to 8-bit) represent a loss of information! Such images should, in general, not be used for quantitative image analysis. In particular, intensity quantification must not be performed on such images. 
@@ -391,7 +395,7 @@ Applied Brightness/Contrast adjustments or, in general, bit depth reduction (e.g
 
 ## Create merged image
 
-After the color and brightness are adjusted, the three adjusted images can then be combined into a merged image.
+After the color and brightness are adjusted, the three adjusted single-channel images can then be combined into a merged image.
 
 Image > Color > Merge Channels...
 
@@ -410,7 +414,7 @@ Merge channels
 As you can see, you can also use the merge channels tool to assign the LUTs. Here, you would then select the correct channel/LUT combination, select "ignore source LUTs," and then press OK.
 :::
 
-The image then gets merged into a composite image (i.e., all channels are still separate images). Note the slider at the bottom of the image that still allows you to select different channels. 
+The individual channels then get merged into a composite image (i.e., all channels are still separate images). Note the slider at the bottom of the image that still allows you to select different channels. 
 
 
 ```{figure} ./unit-1_resources/merge/composite.png
@@ -430,10 +434,13 @@ We will use the result in [Unit 2: Format and annotations](./unit-2_format.md), 
 
 :::{note}
 
-Merging more than three color channels into a single image is tricky, as the different combined colors might not be easily distinguished anymore by eye, additive color mixing produces intermediate hues that the eye cannot reliably trace back to individual channels, so channel-specific information is effectively lost. This is only tolerable when the objects in different channels are well separated, which is often not the case for biological information. Thus, we in general recommend to visualize more than 3 channels separately, ideally using gray scale images. 
+Merging more than three color channels into a single image for visualization is tricky, as the different combined colors might not be easily distinguished anymore by eye, additive color mixing produces intermediate hues that the eye cannot reliably trace back to individual channels, so channel-specific information is effectively lost. 
+
+More than three channel can be tolerable when the objects in different channels are well separated. However this is often not the case for biological information. Thus, we in general recommend to visualize more than 3 channels separately, ideally using gray scale images. 
 
 :::
 
+(bonus-macro-recorder)=
 ## Bonus: Macro recorder
 
 The macro recorder allows for documenting the processing steps that are carried out in the graphical user interface (GUI).  
