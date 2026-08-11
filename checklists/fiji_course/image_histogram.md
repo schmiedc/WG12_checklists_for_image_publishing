@@ -26,6 +26,7 @@ Light microscopy images in life sciences represent a measurement of a biological
 
 The spatial dimension is represented as pixels in 2D or voxels in 3D volumes. The time dimension is present either as a single timepoint or as multiple frames in a timelapse. The fluorescent labels are represented as different channels.
 
+Finally, the light intensity that the microscope captures is represented as different shades of gray of each pixel or voxel.
 
 ```{figure} ./image_histogram_resources/sampling.png
 :alt: In
@@ -33,7 +34,7 @@ The spatial dimension is represented as pixels in 2D or voxels in 3D volumes. Th
 :name: sampling
 :width: 100%
 
-Illustration demonstrating sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline (i.e., an analog signal). (B) A modern microscope samples (yellow grid lines) this analog signal and transforms (digitizes) it into a digital representation, thus discretizing the continuous analog information into pixels and gray values. (C) The sampled cell as a digital image; note the clear loss of information due to the sampling.
+Illustration demonstrating sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline (i.e., an analog signal). (B) A modern microscope samples this analog signal (yellow grid lines) and transforms (digitizes) it into a digital representation, thus discretizing the continuous analog information into pixels and gray values. (C) The sampled cell as a digital image; note the clear loss of information due to the sampling.
 ```
 
 ```{admonition} Think about it
@@ -43,15 +44,28 @@ The above example is extreme to illustrate a point. However, image acquisition a
 
 ```
 
-Finally, the light intensity that the microscope captures is represented as different shades of gray of each pixel or voxel.
-
-This intensity measurement can be performed incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
+The intensity measurement can be performed incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
 
 - The image can be oversaturated, clipping high intensities.
 - The offset can be set incorrectly, cutting off minimum intensities.
 - Image intensity can be resampled (e.g., converted to a lower bit depth), changing the intensity distribution.
 
-We can check these artefacts using the image itself but often they are not easily visible.
+We can check these artefacts using the image itself but often they are not easily visible. See below:
+
+
+```{figure} ./image_histogram_resources/sampling_errors.png
+:alt: In
+:align: center
+:name: sampling_errors
+:width: 100%
+
+Images demonstrating different intensity sampling errors. (A) The starting image, an F-actin cytoskeleton stain channel of a cell cluster. (B–E) Different intensity sampling problems introduced into the same image. 
+```
+
+```{admonition} Exercise
+:class: tip
+Can you identify the artifact in each of B–E? You can find the solution at the end of the tutorial, or work through the exercise yourself using histograms and plot profiles.
+```
 
 We can use tools such as Histograms and line plots to easily spot these artefacts. 
 
@@ -72,3 +86,15 @@ Draw line ROI on images
 Analyze > Plot Profile
 
 ### Clipping in line plot
+
+## Solution 
+
+
+```{figure} ./image_histogram_resources/sampling_errors.png
+:alt: In
+:align: center
+:name: sampling_errors_solution
+:width: 100%
+
+Images demonstrating different intensity sampling errors. (A) The starting image, an F-actin cytoskeleton stain channel of a cell cluster. (B) Low contrast image. (C) Low intensities cut off. (D) Oversaturated image with high intensities clipped. (E) Histogram resampled. 
+```
