@@ -1,7 +1,13 @@
 (image_histogram)=
-# Image histogram
+# Image quality: Image histogram
 
 Topics: intensity sampling, image quality, image histogram
+
+## Learning objective
+
+The learner should be able to use image histograms to identify intensity sampling artifacts in images. 
+
+Time needed: 30 min
 
 ## Motivation
 
@@ -13,7 +19,13 @@ In this mini tutorial, we discuss how to use image histograms to check whether a
 
 - Is oversaturation or clipping present at maximum intensity?
 - Is the minimum signal properly sampled?
-- Are there any intensity sampling artefacts?
+- Are there any intensity sampling artifacts
+
+## Materials
+
+This brief tutorial is using Fiji is just ImageJ (Fiji). All images can be downloaded on the page.
+
+Fiji download: [https://fiji.sc/](https://fiji.sc/) tested with Version ImageJ 2.18.0/1.54p; Java 21.0.7 (64-bit)
 
 ## Introduction
 
@@ -34,7 +46,7 @@ Finally, the light intensity that the microscope captures is represented as diff
 :name: sampling
 :width: 100%
 
-Illustration demonstrating sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline (i.e., an analog signal). (B) A modern microscope samples this analog signal (yellow grid lines) and transforms (digitizes) it into a digital representation, thus discretizing the continuous analog information into pixels and gray values. (C) The sampled cell as a digital image; note the clear loss of information due to the sampling.
+Illustration demonstrating digital sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline and continuous intensity within (i.e., an analog signal). (B) A modern microscope samples this analog signal (yellow grid lines) and transforms (digitizes) it into a digital representation, thus discretizing the continuous analog information into pixels and gray values. (C) The sampled cell as a digital image; note the clear loss of information due to this digital sampling.
 ```
 
 ```{admonition} Think about it
@@ -44,13 +56,13 @@ The above example is extreme to illustrate a point. However, image acquisition a
 
 ```
 
-The intensity measurement can be performed incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
+The intensity sampling can be performed incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
 
 - The image can be oversaturated, clipping high intensities.
 - The offset can be set incorrectly, cutting off minimum intensities.
 - Image intensity can be resampled (e.g., converted to a lower bit depth), changing the intensity distribution.
 
-We can check these artefacts using the image itself but often they are not easily visible. See below:
+We can check these artifacts using the image itself but often they are not easily visible. See below:
 
 
 ```{figure} ./image_histogram_resources/sampling_errors.png
@@ -59,33 +71,178 @@ We can check these artefacts using the image itself but often they are not easil
 :name: sampling_errors
 :width: 100%
 
-Images demonstrating different intensity sampling errors. (A) The starting image, an F-actin cytoskeleton stain channel of a cell cluster. (B–E) Different intensity sampling problems introduced into the same image. 
+Images demonstrating different intensity sampling problems. (A) The starting image, an F-actin cytoskeleton stain channel of a cell cluster. (B–E) Different intensity sampling problems introduced into the same image. 
 ```
 
 ```{admonition} Exercise
 :class: tip
-Can you identify the artifact in each of B–E? You can find the solution at the end of the tutorial, or work through the exercise yourself using histograms and plot profiles.
+Can you identify the intensity sampling problems in each of B–E? You can find the solution at the end of the tutorial, or work through the exercise yourself using histograms and plot profiles.
 ```
 
-We can use tools such as Histograms and line plots to easily spot these artefacts. 
+We can use tools such as image histograms to easily spot these artifacts. 
 
-## Histogram
+## Image Histogram
+
+Download the first test image here [A_image.png](./image_histogram_resources/A_image.png).
+
+Open Fiji.
+
+```{figure} ./unit-1_resources/Fiji_task_bar.png
+:alt: In
+:align: center
+:name: Fiji task bar image histogram
+:width: 100%
+
+Fiji task bar 
+```
+
+File > Open... (or drag and drop image into Fiji task bar).
+
+You can then create the image histogram of this image here:
 
 Analyze > Histogram
 
-Shows intensity distributions
+The image histogram shows the intensity distributions over all pixels (black plots). With the x-axis plotting the gray-values and the y-axis plotting the number of pixels {numref}`histogram_good`. 
 
-### Intensity artfacts in Histograms
+```{figure} ./image_histogram_resources/histogram_good.png
+:alt: In
+:align: center
+:name: histogram_good
+:width: 75%
 
-## Line plots
+Image Histogram
+```
 
-Click on line ROI 
+There are two peaks, see {numref}`histogram_annotated`. (A) The first sharp peak has many pixels with low gray-values. These values correspond mostly to the background of the image (e.g., dark pixels). (B) The second flatter peak shows pixels with a wide distribution over different larger gray values. These correspond to the signal from the imaged object. (C) Below you will find a calibration bar that shows the minimum and maximum values displayed and their corresponding displayed gray value. 
 
-Draw line ROI on images
+Additionally the histogram window shows basic intensity statistics from this specific image such as the total number of pixels (N), mean (Mean), standard deviation (StdDev), minimum value (Min) and maximum value (Max). For more information please look into the [ImageJ documentation](https://imagej.net/ij/docs/menus/analyze.html#hist)
 
-Analyze > Plot Profile
+```{figure} ./image_histogram_resources/histogram_annotated.png
+:alt: In
+:align: center
+:name: histogram_annotated
+:width: 50%
 
-### Clipping in line plot
+Information in the histogram
+```
+
+The second peak is often not easily visible. Thus we can apply a log scale on the y-axis to better visualize the less abundant gray values. The intensity distribution using the log scale is overlaid as gray plots see {numref}`histogram_good_log`:
+
+```{figure} ./image_histogram_resources/histogram_good_log.png
+:alt: In
+:align: center
+:name: histogram_good_log
+:width: 75%
+
+Histogram with log scale
+```
+
+Now we would like to understand what constitutes a well-acquired image based on its histogram. In general, good original microscopy images (i.e., unprocessed) preserve both the low and high intensity values and show an unprocessed varying signal. We can see this clearly in {numref}`histogram_demonstrated`:
+
+(A) Low values do not start at 0; there is a clear "offset" present in the image, with low intensity varying around a low gray value.
+(B) The signal is continuous but not smooth; variation is present along the intensity distribution due to variation in the signal and noise.
+(C) The high values end before the highest possible value, rather than reaching it.
+
+```{figure} ./image_histogram_resources/histogram_good_demonstrated.png
+:alt: In
+:align: center
+:name: histogram_demonstrated
+:width: 50%
+
+Histogram with log scale
+```
+
+:::{note}
+
+Variation and noise are often seen as something bad that should be suppressed or removed before analysis. However, in the physical world, variation is normal and noise cannot be avoided when performing measurements, as the measurement itself will introduce it. Thus, the absence of variation or noise, i.e., smooth distributions, is generally an indication that some processing has occurred.
+
+:::
+
+## Intensity artifacts in Histograms
+
+Since we now understand how a regular histogram should look we can study different intensity sampling problems. Download the example images (B-E) from the example figure {numref}`sampling_errors` here: 
+
+- [B_image.png](./image_histogram_resources/B_image.png)
+- [C_image.png](./image_histogram_resources/C_image.png)
+- [D_image.png](./image_histogram_resources/D_image.png)
+- [E_image.png](./image_histogram_resources/E_image.png)
+
+```{admonition} Exercise
+:class: tip
+
+Open the images, create a histogram and then compare it to the starting image (A_image.png). Try to identify the differences between the images and the image histograms.
+
+Also think how these artifacts impact your visualization and analysis downstream.
+
+```
+
+### Low contrast
+
+[B_image.png](./image_histogram_resources/B_image.png) shows an image that appears faint or dim. Looking at its histogram, we can see that the intensity values are clustered in a narrow band, leaving much of the available range unused (red arrow). Thus, the image is not exploiting the full dynamic range of the display or detector. We say the image is low contrast. 
+
+This is not necessarily a corrupted or unusable image. Under certain conditions, a narrow intensity range can be entirely correct, for instance, when comparing different treatments that genuinely produce different signal strengths, forcing the range to match would misrepresent the biology. However, a narrow, underused histogram can also indicate suboptimal image acquisition (e.g., insufficient exposure time, laser power, or gain), and it's worth checking the acquisition settings before assuming the signal itself is simply weak.
+
+```{figure} ./image_histogram_resources/histogram_low_contrast.png
+:alt: In
+:align: center
+:name: histogram_low_contrast
+:width: 75%
+
+Low contrast
+```
+
+### Low intensity cut
+
+[C_image.png](./image_histogram_resources/C_image.png) now shows a clear intensity sampling error. Unlike the previous example, there is no offset present in the image, and the low intensities have been clipped. At the lowest possible value (0), we can see a sharp peak in the histogram (red arrow). This spike indicates that many pixels have been pushed down to the same minimum value, meaning the true low-intensity information has been lost and cannot be recovered. 
+
+This can severely impact image measurements. When measuring object size, dim edges or faint structures near the clipping point may be missed entirely, leading to underestimated object size. Signal intensity measurements are also affected, since clipped pixels no longer reflect their true value, biasing any quantification that relies on them.
+
+```{figure} ./image_histogram_resources/histogram_low_cut.png
+:alt: In
+:align: center
+:name: histogram_low_cut
+:width: 75%
+
+Low intensity values cut, no offset
+```
+
+### High intensity clipped
+
+[D_image.png](./image_histogram_resources/D_image.png) shows another clear intensity sampling error. Here, the high signals have been clipped, also referred to as oversaturation. At the highest possible value, we can see a sharp peak in the histogram (red arrow). Many pixels have been pushed up to the same maximum value, so the true high-intensity values are lost and cannot be measured accurately.
+
+This severely impacts the resolution of different structures, since details in the image are now merging together. Accurate signal intensity measurements become entirely impossible.
+
+```{figure} ./image_histogram_resources/histogram_high_cut.png
+:alt: In
+:align: center
+:name: histogram_high_cut
+:width: 75%
+
+High intensity values cut, i.e., clipped. Oversaturation
+```
+
+:::{note}
+
+For an effective image visualization it might be required to oversaturate the image. As otherwise the image content might not be visible in the medium of visualization (projector, computer screen or printed paper). 
+
+This is permissible for display of images as long as ethical image processing is respected see: [Ethical image processing](./image_ethics.md). However, such images are in general not useful for downstream quantitative analysis. Thus, perform quantitative image analysis on the original unprocessed image. 
+
+:::
+
+### Histogram rescaled
+
+[E_image.png](./image_histogram_resources/E_image.png) finally shows an image processing artifact. The intensity has been rescaled such that the continuity of the intensity distribution is interrupted, instead of a smooth histogram, we see gaps or comb-like spikes at regular intervals, where certain intensity values are missing or overrepresented. This pattern indicates that the image has been resampled or converted (e.g., to a lower bit depth) after acquisition, rather than reflecting the original measurement. 
+
+As with the previous examples, this makes accurate quantitative comparison unreliable, since the recorded values no longer correspond directly to the original signal. 
+
+```{figure} ./image_histogram_resources/histogram_rescaled.png
+:alt: In
+:align: center
+:name: histogram_rescaled
+:width: 75%
+
+Histogram rescaled non-continuous intensity distribution.
+```
 
 ## Solution 
 

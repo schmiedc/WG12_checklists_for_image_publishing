@@ -3,6 +3,12 @@
 
 Topcis: image processing, ethics
 
+## Learning objective
+
+Learners should be able to distinguish acceptable image processing practices (e.g., linear adjustments, cropping) from unethical image manipulation (e.g., selective processing, cloning, inappropriate compression), and apply best practices for data preservation, comparison, and metadata documentation to preserve the scientific integrity of microscopy images.
+
+Time needed: 20 min
+
 ## Motivation
 
 > When you employ the microscope, 

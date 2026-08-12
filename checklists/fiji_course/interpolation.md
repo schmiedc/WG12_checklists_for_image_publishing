@@ -3,6 +3,14 @@
 
 Topics: Raster graphics, printing resolution, interpolation, vector graphics
 
+## Learning objective
+
+Learners should be able to explain how interpolation affects image quality when resizing raster images, determine an appropriate printing resolution (dpi) for a figure, and choose between raster and vector graphics approaches to preserve scientific image data during figure preparation.
+
+Time needed: 20 min
+
+## Motivation
+
 After image processing (e.g. image reconstruction, cropping, rotation, adjusting brightness contrast) the actual figure that will be published needs to be created. For creating correct and informative image figures the images need to be properly sized as well as annotated. In this section we would like to explain these tasks, common pitfalls and provide different receipts to solve them.
 
 
