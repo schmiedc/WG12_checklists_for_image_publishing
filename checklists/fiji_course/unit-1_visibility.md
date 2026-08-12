@@ -35,6 +35,13 @@ The same multi-channel image visualized in different forms, all failing to commu
 - What do the colors mean?
 - Is the information accessible to a wide audience?
 
+:::{note}
+
+A further foundational consideration is also that the image used for visualization is of sufficient quality. For further information on how to assess intensity quality in images using image histograms please see: {ref}`image_histogram`. 
+
+We have also collected material concerning correct image acquistion here: {ref}`further-material-acquisition`.
+
+:::
 
 :::{important}
 
@@ -46,7 +53,8 @@ Another important aspect that we should also consider at this stage is the choic
 
 :::
 
-A further foundational consideration is also that the image used for visualization is of sufficient quality. We have collected material concerning correct image acquistion here: {ref}`further-material-acquisition`.
+
+
 
 
 ## Load and prepare example images
