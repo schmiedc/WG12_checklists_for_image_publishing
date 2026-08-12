@@ -7,7 +7,7 @@ Topics: Raster graphics, printing resolution, interpolation, vector graphics
 
 Learners should be able to explain how interpolation affects image quality when resizing raster images, determine an appropriate printing resolution (dpi) for a figure, and choose between raster and vector graphics approaches to preserve scientific image data during figure preparation.
 
-Time needed: 20 min
+Time needed: 15 min
 
 ## Motivation
 

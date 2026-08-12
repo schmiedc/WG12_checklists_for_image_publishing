@@ -7,7 +7,7 @@ Topics: intensity sampling, image quality, image histogram
 
 The learner should be able to use image histograms to identify intensity sampling artifacts in images. 
 
-Time needed: 30 min
+Time needed: 25 min
 
 ## Motivation
 
