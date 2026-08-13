@@ -38,7 +38,7 @@ Light microscopy images in life sciences represent a measurement of a biological
 
 The spatial dimension is represented as pixels in 2D or voxels in 3D volumes. The time dimension is present either as a single timepoint or as multiple frames in a timelapse. The fluorescent labels are represented as different channels.
 
-Finally, the light intensity that the microscope captures is represented as different shades of gray of each pixel or voxel.
+Finally, the light intensity that the microscope captures is represented as different shades of gray of each pixel or voxel. This sampling is illustrated in {numref}`sampling`
 
 ```{figure} ./image_histogram_resources/sampling.png
 :alt: In
@@ -46,7 +46,7 @@ Finally, the light intensity that the microscope captures is represented as diff
 :name: sampling
 :width: 100%
 
-Illustration demonstrating digital sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline and continuous intensity within (i.e., an analog signal). (B) A modern microscope samples this analog signal (yellow grid lines) and transforms (digitizes) it into a digital representation, thus discretizing the continuous analog information into pixels and gray values. (C) The sampled cell as a digital image; note the clear loss of information due to this digital sampling.
+Illustration demonstrating digital sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline and continuous intensity within. (B) A modern microscope samples this signal (yellow grid lines) and transforms (qunatizes) it into a digital representation, thus quantized the continuous analog information into discrete pixels and gray values. (C) The sampled cell as a digital image; note the clear loss of information due to this digital sampling.
 ```
 
 ```{admonition} Think about it
@@ -56,13 +56,35 @@ The above example is extreme to illustrate a point. However, image acquisition a
 
 ```
 
+Intensity signals are continuous information and thus have infinite fine detail. In order to store such information we need to convert this information into a different form. In the past we used analog storage media such as film for images. 
+
+Now we use digital storage media. The continuous and "infinite" information is converted to discrete and thus finite gray value bins. 
+
+Why should you care about that? Look below how different number of gray value bins influence how well we can differentiate detail in an image {numref}`bith depth`:
+
+```{figure} ./image_histogram_resources/bitdepth.png
+:alt: In
+:align: center
+:name: bith depth
+:width: 100%
+
+Visualization of different intensity sampling on a Fiji sample image. (A) Two gray level bins are available. (B) Four gray level bins. (C) Sixtenn gray levels. (D) 256 gray levels.
+```
+
+```{admonition} Think about it
+:class: tip
+
+The 8-bit image and the below gradient appears to be continuous. Would this be sufficient gray levels for all applications? Can you think when this could be sufficient and when it would be a problem?
+
+```
+
 The intensity sampling can be performed incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
 
 - The image can be oversaturated, clipping high intensities.
 - The offset can be set incorrectly, cutting off minimum intensities.
 - Image intensity can be resampled (e.g., converted to a lower bit depth), changing the intensity distribution.
 
-We can check these artifacts using the image itself but often they are not easily visible. See below:
+We can check these artifacts using the image itself but often they are not easily visible. See {numref}`sampling_errors`:
 
 
 ```{figure} ./image_histogram_resources/sampling_errors.png
