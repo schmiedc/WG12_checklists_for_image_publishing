@@ -68,17 +68,19 @@ Why should you care about that? Look below how different number of gray value bi
 :name: bith depth
 :width: 100%
 
-Visualization of different intensity sampling on a Fiji sample image. (A) Two gray level bins are available. (B) Four gray level bins. (C) Sixtenn gray levels. (D) 256 gray levels.
+Visualization of different intensity sampling on a Fiji sample image. (A) Two gray level bins are available. (B) Four gray level bins. (C) Sixteen gray levels. (D) 256 gray levels.
 ```
 
 ```{admonition} Think about it
 :class: tip
 
-The 8-bit image and the below gradient appears to be continuous. Would this be sufficient gray levels for all applications? Can you think when this could be sufficient and when it would be a problem?
+The 1-bit image looks bad, and the face is very hard to recognize. The 2-bit image is better, and the 4-bit image is already quite good, but there are still clear stepping artifacts. The 8-bit image and the gradient below appear continuous.
+
+Would 8-bit therefore be sufficient in terms of gray levels for all applications? Can you think of cases when this would be sufficient, and when it would be a problem?
 
 ```
 
-The intensity sampling can be performed incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
+The conversion of the continuous signal into gray levels via intensity sampling can be performed also incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
 
 - The image can be oversaturated, clipping high intensities.
 - The offset can be set incorrectly, cutting off minimum intensities.
