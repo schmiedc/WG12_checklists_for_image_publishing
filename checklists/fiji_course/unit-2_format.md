@@ -284,7 +284,7 @@ ROI Manager window.
 
 If you want to save the intermediate results, save them as TIFF, as this format preserves the image information and any additional layers:
 
-File > Save As > TIFF...
+File > Save As > Tiff...
 
 :::{important}
 

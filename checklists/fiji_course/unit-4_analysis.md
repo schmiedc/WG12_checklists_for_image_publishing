@@ -53,19 +53,21 @@ Help > Update...
 ```{figure} ./unit-3_resources/figure/imagej_updater.png
 :alt: In
 :align: center
+
 :name: orgamapper_updater
 :width: 50%
 
 Update Fiji.
 ```
 
-Press: Manage update site
+Press: Manage update site and add 2 update sites:
 
-Select Cellular Imaging Facility
+- Select: Cellular Imaging Facility
+- Select: ImageScience
 
 Press OK and restart Fiji.
 
-Save the example images in an input folder (e.g., test). OrgaMapper documents the analysis settings using an .xml file. Please download the settings: [settings .xml](./unit-4_resources/existing_workflow/2026-04-13T175308-settings.xml) and put it into the input folder. Create an output folder (e.g., test_out). 
+Save the example images in an input folder (e.g., test). OrgaMapper documents the analysis settings using an .xml file. Please download the settings: [settings .xml](./unit-4_resources/existing_workflow/2026-04-13T175308-settings.xml) (right-click and select "Save Link As...") and put it into the input folder. Create an output folder (e.g., test_out). 
 
 Start OrgaMapper:
 

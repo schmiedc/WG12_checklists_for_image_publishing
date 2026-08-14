@@ -150,6 +150,8 @@ Further, each channel also has different brightness and contrast settings, thus 
 Fiji allows you to record most processing steps that are carried out, including the settings, using the macro recorder. This can be used to create a script to automatically process multiple images,but can also be used to document the processing. 
 
 Record the functions and settings used: Plugins > Macros > Record...
+
+To learn more go to the bonus section {ref}`bonus-macro-recorder`.
 :::
 
 
@@ -494,7 +496,7 @@ Save as .ijm Fiji macro.
 Macro script
 ```
 
-The cool thing is that by pressing "Run," one can reproduce the entire processing. Even cooler is to fully automate the processing of all your images by doing some [simple macro programming](https://imagej.net/scripting/macro). You can download the macro example to test it [Macro.ijm](./unit-1_resources/macro/macro_unit-1.ijm).
+The cool thing is that by pressing "Run," one can reproduce the entire processing. Even cooler is to fully automate the processing of all your images by doing some [simple macro programming](https://imagej.net/scripting/macro). You can download the macro example to test it [Macro.ijm](./unit-1_resources/macro/macro_unit-1.ijm) (right-click and select "Save Link As...").
 
 :::{note} 
 
@@ -506,7 +508,7 @@ For the macro to work, the "multichannel_image.tif" image needs to be open under
 
 If you want to save the intermediate results, save them as TIFF, as this format preserves the image information and any additional layers:
 
-File > Save As > TIFF...
+File > Save As > Tiff...
 
 :::{important}
 

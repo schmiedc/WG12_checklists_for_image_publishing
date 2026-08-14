@@ -114,13 +114,13 @@ Plugins > BioVoxxel Figure Tools > Export all images as SVG
 Export images as SVG.
 ```
 
-You can download the examples here: 
+You can download the examples here (right-click and select "Save Link As..."): 
 - [01_composite_crop_scale.svg](./unit-3_resources/examples/01_composite_crop_scale.svg)
 - [02_composite_scale.svg](./unit-3_resources/examples/02_composite_scale.svg)
 - [03_composite_treat_crop_scale.svg](./unit-3_resources/examples/03_composite_treat_crop_scale.svg)
 - [04_composite_treat_scale.svg](./unit-3_resources/examples/04_composite_treat_scale.svg)
 
-SVG is a vector graphic format that can be loaded and processed in Inkscape. We have prepared a figure template based on an A4 page that includes guides to leave page margins: [figure_template.svg](./unit-3_resources/examples/figure_template.svg)
+SVG is a vector graphic format that can be loaded and processed in Inkscape. We have prepared a figure template based on an A4 page that includes guides to leave page margins: [figure_template.svg](./unit-3_resources/examples/figure_template.svg) (right-click and select "Save Link As...").
 
 Open the template in Inkscape:
 
@@ -292,7 +292,7 @@ Consider adding annotations, such as cell type and treatment, to help the viewer
 Example of possible annotations in an image.
 ```
 
-You can download the result here: [figure_example.svg](./unit-3_resources/examples/figure_example.svg)
+You can download the result here: [figure_example.svg](./unit-3_resources/examples/figure_example.svg) (right-click and select "Save Link As...").
 
 ## Figure legends
 
