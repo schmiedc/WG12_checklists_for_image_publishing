@@ -10,7 +10,7 @@ For the complete set of recommendations, see the full set of [checklists](https:
 :align: center
 :name: figure-checklist
 
-Condensed checklists. 
+Condensed checklist. 
 ```
 
 ## Who this course is for
