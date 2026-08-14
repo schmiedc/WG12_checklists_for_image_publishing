@@ -100,12 +100,12 @@ Images demonstrating different intensity sampling problems. (A) The starting ima
 
 ```{admonition} Exercise
 :class: tip
-Can you identify the intensity sampling problems in each of B–E? You can find the solution at the end of the tutorial, or work through the exercise yourself using histograms and plot profiles.
+Can you identify the intensity sampling problems in each of B–E? You can find the solution at the end of the tutorial, or work through the exercise yourself using histograms.
 ```
 
-We can use tools such as image histograms to easily spot these artifacts. 
-
 ## Image Histogram
+
+We can use tools such as image histograms to easily spot intensity sampling problems. 
 
 Download the first test image here [A_image.png](./image_histogram_resources/A_image.png).
 

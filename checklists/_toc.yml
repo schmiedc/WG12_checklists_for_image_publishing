@@ -26,6 +26,7 @@ parts:
       - file: fiji_course/image_ethics.md
       - file: fiji_course/image_histogram.md
       - file: fiji_course/interpolation.md
+      - file: fiji_course/visual_illusions.md
   - caption: "4. Other resources"
     chapters:
     - file: other_resources/how_to_contribute.md
