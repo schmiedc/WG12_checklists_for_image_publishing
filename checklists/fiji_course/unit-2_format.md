@@ -82,7 +82,7 @@ Draw a region of interest (ROI) by selecting a ROI tool in the Fiji task bar, fo
 Rectangle ROI drawn on image.
 ```
 
-You can save the exact ROI on the image as a non-destructive overlay to easily label the origin of the crop. First we need to add the ROI to the overlay:
+You can save the exact ROI on the image as a non-destructive overlay to easily label the origin of the crop. First, we need to add the ROI to the overlay:
 
 Image > Overlay > Add Selection...
 
@@ -218,7 +218,7 @@ The width of the scale bar should be in relation to the shown object.
 
 The size of the scale bar can also be specified in the figure legend. 
 
-An acceptable alternative to a scale bar is to specify the physical dimension of the entire image. However, just stating the magnification of the detection lens is not sufficient, as the actual pixel size also depends on the objective's numerical aperture and detector-side factors such as camera pixel size, additional optics, sampling rate, or binning. Thus, two images at the same nominal magnification can therefore cover very different physical fields of view.
+An acceptable alternative to a scale bar is to specify the physical dimension of the entire image. However, just stating the magnification of the detection lens is not sufficient, as the actual pixel size also depends on the objective's numerical aperture and detector-side factors such as camera pixel size, additional optics, sampling rate, or binning. Thus, two images at the same nominal magnification can cover very different physical fields of view.
 
 :::
 
@@ -232,13 +232,6 @@ Image > Stacks > Label...
 
 However, we recommend creating such annotations in a dedicated vector graphics program, such as Inkscape. We discuss the creation of the publication-ready image figure here: [Unit 3: Figure prep and availability](./unit-3_figure_prep.md)
 
-
-<!---
-
-What could be relevant is to dicuss adding timestamps in movies, or frame of movies.
-
---->
-
 ## Result and next unit
 
 You can download the result of [Unit 2: Format and annotations](./unit-2_format.md) here: [composite_scale.tif](./unit-2_resources/unit-2_examples/composite_scale.tif) and [composite_crop_scale.tif](./unit-2_resources/unit-2_examples/composite_crop_scale.tif). 
@@ -247,7 +240,7 @@ The result images will be used in [Unit 3: Figure and availability](./unit-3_fig
 
 ## Bonus: ROI Manager and overlays
 
-You can manage multiple ROIs and also annotations via the ROI Manager. First we need to make sure that any ROIs (or selections) are available in the overlay: 
+You can manage multiple ROIs and also annotations via the ROI Manager. First, we need to make sure that any ROIs (or selections) are available in the overlay: 
 
 Image > Overlay > Add Selection...
 
@@ -270,12 +263,11 @@ ROI Manager > Deselect (This selects all ROIs)
 
 ROI Manager > More > Save...
 
-
-The ROI manager can also be used independently of the overlay. For instance to add any active ROIs into the ROI manager. First open the ROI Manager:
+The ROI manager can also be used independently of the overlay, for instance, to add any active ROIs into the ROI manager. First, open the ROI Manager:
 
 Analyze > Tools > ROI Manager...
 
-To add active ROIs press Add [t]
+To add active ROIs, press Add [t]
 
 Alternatively, pressing "t" on the keyboard will also open the ROI Manager and add the currently active ROI.
 
@@ -287,7 +279,6 @@ Alternatively, pressing "t" on the keyboard will also open the ROI Manager and a
 
 ROI Manager window.
 ```
-:::
 
 ## Save result
 
@@ -295,9 +286,9 @@ If you want to save the intermediate results, save them as TIFF, as this format 
 
 File > Save As > TIFF...
 
-:::{IMPORTANT}
+:::{important}
 
-In general when saving images use formats that preserve the image information. Do not use file formats that use lossy compression see:
+In general, when saving images, use formats that preserve the image information. Do not use file formats that use lossy compression (see example below):
 
 ```{figure} ./image_ethics_resources/compression.png
 :alt: In
