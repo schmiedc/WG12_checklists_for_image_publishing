@@ -69,9 +69,9 @@ You can download the result here: [composite_treat_scale.tif](./unit-3_resources
 
 ## Figure setup
 
-The final image figure qill be created in a vector graphics program (i.e. Inkscape). For exporting the raster graphics images as vector graphics files we are going to use the Biovoxxel Figure tools plugin. 
+The final image figure will be created in a vector graphics program (i.e., Inkscape). For exporting the raster graphics images as vector graphics files, we are going to use the BioVoxxel Figure Tools plugin. 
 
-For more information on what raster graphics are and why we want to use vector graphics head here: [Raster graphics and interpolation](./interpolation.md).
+For more information on what raster graphics are and why we want to use vector graphics, see here: [Raster graphics and interpolation](./interpolation.md).
 
 We can install this plugin via an update site:
 
@@ -89,7 +89,7 @@ Update Fiji.
 
 Press: Manage update site
 
-Select Biovoxxel Figure tools
+Select BioVoxxel Figure Tools
 
 ```{figure} ./unit-3_resources/figure/biovoxxel_tool_box.png
 :alt: In
@@ -97,7 +97,7 @@ Select Biovoxxel Figure tools
 :name: figure_tools
 :width: 75%
 
-Add Biovoxxel Figure Tool Box.
+Add BioVoxxel Figure Tools plugin.
 ```
 Press: Apply and Close.
 
@@ -156,7 +156,7 @@ Import images at 300 dpi, as this is the required printing resolution of most jo
 
 :::
 
-The first step is to resize the image to fit the image figure. When resizing make sure to lock the aspect ratio and resize the image uniformly. After import the annotations can be edited. 
+The first step is to resize the image to fit the image figure. When resizing, make sure to lock the aspect ratio and resize the image uniformly. After import, the annotations can be edited. 
 
 ```{figure} ./unit-3_resources/annotations/inkscape_resize_arrow.png
 :alt: In
@@ -164,10 +164,10 @@ The first step is to resize the image to fit the image figure. When resizing mak
 :name: inkscape_resize
 :width: 100%
 
-Resize image panel to fit the figure. Note: the lock on the aspect ration to resize the image uniformly.
+Resize image panel to fit the figure. Note the lock on the aspect ratio, used to resize the image uniformly.
 ```
 
-Next you can select annotation in Layers and Objects. Modify the size and location of the annotation.
+Next, you can select an annotation in Layers and Objects. Modify the size and location of the annotation.
 
 Layer > Layers and Objects...
 
@@ -177,7 +177,7 @@ Layer > Layers and Objects...
 :name: inkscape_layers_objects
 :width: 100%
 
-Layers and objects allow to select the different annotations.
+Layers and objects allow for selecting the different annotations.
 ```
 
 :::{important}
@@ -196,7 +196,7 @@ Ensure that the annotations are legible. Make sure the annotations do not obscur
 The ROI - 0001-0510-0498, the scale bar and scale bar text - |SB|, and the image - 02_composite_scale.tif (RGB) is shown.
 ```
 
-Select the annotation you want to modify in the layers and objects interface. Then edit height and location of scale bar. Edit the dimension annotation such that it is uniform and legible across all images.
+Select the annotation you want to modify in the layers and objects interface. Then edit height and location of the scale bar. Edit the dimension annotation such that it is uniform and legible across all images.
 
 ```{figure} ./unit-3_resources/annotations/edited_annotation.png
 :alt: In
@@ -209,9 +209,9 @@ Scale bar adjusted for height and location. The dimension will be specified in t
 
 :::{tip}
 
-To make annotations simpler in the image, one can specify the physical dimension that the scale bar represents also in the figure legends. To easily retrieve this information one can drag the scale bar text outside the canvas. 
+To make annotations simpler in the image, one can specify the physical dimension that the scale bar represents also in the figure legends. To easily retrieve this information, one can drag the scale bar text outside the canvas. 
 
-If different image panels have the same scale bar, you can put the scale bar in the first image. Critical is that images of different dimensions (e.g., overview and enlarged) show the correct scale.   
+If different image panels have the same scale bar, you can put the scale bar in the first image. It is critical that images of different dimensions (e.g., overview and enlarged) show the correct scale.   
 
 :::
 
@@ -237,10 +237,11 @@ Also, the location of the inset or an enlarged crop should be marked in the over
 The ROI when added as an overlay can also be exported in the SVG and imported in inkscape. You can then modify the color and thickness of the ROI.
 ```
 
-The appearance of the ROI can then be modified via:"
+The appearance of the ROI can then be modified via:
+
 Object > Fill and Stroke...
 
-For changing the color select the Stroke tab. In the Fill and Stroke interface select the "Stroke Paint" tab.
+For changing the color, select the Stroke tab. In the Fill and Stroke interface select the "Stroke Paint" tab.
 
 ```{figure} ./unit-3_resources/annotations/inkscape_stroke_color.png
 :alt: In
@@ -251,11 +252,11 @@ For changing the color select the Stroke tab. In the Fill and Stroke interface s
 In the Fill and Stroke interface select the "Stroke Paint" tab.
 ```
 
-Modify the color of the ROI. Via the color settings in the Stroke paint panel.
+Modify the color of the ROI via the color settings in the Stroke Paint panel.
 
 :::{note}
 
-Chose the color of the annotation such that there is good contrast with the image content. In a grayscale image you can use a color (e.g. yellow, magenta green). In a color image use a color that is not present in one of the channels (in this example, white or yellow work well).  
+Choose the color of the annotation such that there is good contrast with the image content. In a grayscale image you can use a color (e.g., yellow, magenta, and green). In a color image use a color that is not present in one of the channels (in this example, white or yellow work well).  
 
 :::
 
@@ -268,7 +269,7 @@ Chose the color of the annotation such that there is good contrast with the imag
 Adjust the color of the ROI.
 ```
 
-After the color has been adjusted, modify the line width of the ROI. Select the Stroke style tab in the Fill and Stroke interface, then adjust the Width setting:"
+After the color has been adjusted, modify the line width of the ROI. Select the Stroke style tab in the Fill and Stroke interface, then adjust the Width setting:
 
 
 ```{figure} ./unit-3_resources/annotations/inkscape_stroke_width.png
@@ -305,7 +306,7 @@ See below a proposal for an image figure legend:
 :name: annotated_image2
 :width: 100%
 
-Nocodazole treatment results in the appearance of small rounded cells in U2-OS cells: (a) U2-OS cells treated with DMSO only. (b) Cropped image of a single cell treated with DMSO. (c) U2-OS cells treated with Nocodazole at a 5 µM concentration over 24h show appearance of small rounded cells (White Arrowheads). (d) Cropped image of a small rounded cells. Scale bar represents 100 µm (a) and 20 µm (b). 
+Nocodazole treatment results in the appearance of small rounded cells in U2-OS cells: (a) U2-OS cells treated with DMSO only. (b) Cropped image of a single cell treated with DMSO. (c) U2-OS cells treated with Nocodazole at a 5 µM concentration over 24 h show appearance of small rounded cells (White Arrowheads). (d) Cropped image of a small rounded cell. Scale bar represents 100 µm (a) and 20 µm (b). 
 ```
 
 :::{important} 
@@ -327,14 +328,14 @@ For Fiji, the version can be seen in the taskbar:
 :name: Fiji_version
 :width: 100%
 
-Fiji Version in the taskbar.
+Fiji version in the taskbar.
 ```
 
-Based on this a possible methods section could read:
+Based on this, a possible methods section could read:
 
-Image figures were processed using Fiji Is Just ImageJ (Fiji) ([Schindelin et al. 2012](https://doi.org/10.1038/nmeth.2019)) version 2.16/1.54p and the BioVoxxel Figure Toolbox ([Brocher and Mutterer 2026](https://doi.org/10.5281/zenodo.18656531)). Following figure publication guidelines ([Schmied et al. 2024](https://doi.org/10.1038/s41592-023-01987-9)), images were adjusted for brightness/contrast using the same min and max settings across compared channels. 
+Image figures were processed using Fiji Is Just ImageJ (Fiji) ([Schindelin et al. 2012](https://doi.org/10.1038/nmeth.2019)) version 2.16/1.54p and the BioVoxxel Figure Tools ([Brocher and Mutterer 2026](https://doi.org/10.5281/zenodo.18656531)). Following figure publication guidelines ([Schmied et al. 2024](https://doi.org/10.1038/s41592-023-01987-9)), images were adjusted for brightness/contrast using the same min and max settings across compared channels. 
 
-Used brightness and contrast settings:
+Used brightness/contrast settings:
 | Channel | Channel Label      | Min| Max  | 
 |---------|--------------------|----|------|
 |1        |Mitochondria        |308 | 2484 |
@@ -351,9 +352,9 @@ Citations:
 
 :::{tip}
 
-The exact brightness contrast settings for each channel is dependent on the exact intensity distribution in each single-channel image. For further information how to adjust brightness contrast look go to {ref}`brightness-contrast`.
+The exact brightness/contrast settings for each channel are dependent on the exact intensity distribution in each single-channel image. For further information on how to adjust brightness/contrast, go to {ref}`brightness-contrast`.
 
-To make your work easier, you can add the macro that we created in {ref}`bonus-macro-recorder` together with your original and processed images as documentation instead of specifying the brightness contrast settings. 
+To make your work easier, you can add the macro that we created in {ref}`bonus-macro-recorder` together with your original and processed images as documentation instead of specifying the brightness/contrast settings. 
 
 :::
 
@@ -367,7 +368,7 @@ To make your work easier, you can add the macro that we created in {ref}`bonus-m
 
 Examples of different repositories. Overview provided by [Cimini 2023](https://doi.org/10.5281/zenodo.7628604).
 ```
-As long as it is legally and technically feasible, the original images as well as the final processed images should be made available in public repositories. The original images should be provided losslessly compressed, along with any ground truth or manual annotations.
+As long as it is legally and technically feasible, the original images as well as the final processed images should be made available in public repositories. The original images should be provided in a losslessly compressed format along with any ground truth or manual annotations.
 
 ## Next unit
 
