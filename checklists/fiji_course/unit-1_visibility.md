@@ -37,9 +37,9 @@ The same multi-channel image visualized in different forms, all failing to commu
 
 :::{note}
 
-A further foundational consideration is also that the image used for visualization is of sufficient quality. For further information on how to assess intensity quality in images using image histograms please see: {ref}`image_histogram`. 
+A further foundational consideration is also that the image used for visualization is of sufficient quality. For further information on how to assess intensity quality in images using image histograms, please see: {ref}`image_histogram`. 
 
-We have also collected material concerning correct image acquistion here: {ref}`further-material-acquisition`.
+We have also collected material concerning correct image acquisition here: {ref}`further-material-acquisition`.
 
 :::
 
@@ -147,9 +147,9 @@ Further, each channel also has different brightness and contrast settings, thus 
 
 :::{tip}
 
-Fiji allows you to record most processing steps that are carried out, including the settings using the macro recorder. This can be used to create a script to automatically process multiple images, but could also be used to document the processing. 
+Fiji allows you to record most processing steps that are carried out, including the settings, using the macro recorder. This can be used to create a script to automatically process multiple images,but can also be used to document the processing. 
 
-Record used functions and settings: Plugins > Macros > Record...
+Record the functions and settings used: Plugins > Macros > Record...
 :::
 
 
@@ -157,11 +157,11 @@ Record used functions and settings: Plugins > Macros > Record...
 
 The colors are part of a [Look up tables (LUT)](https://imagej.net/imaging/visualization) that assign specific color values to the pixel values. 
 
-:::{Important}
+:::{important}
 
-For color choice, consider that a part of the population is color blind (e.g., red - green blindness) — pairing red and green channels makes the figure unreadable for them and erases the very contrast you intended to show. You can simulate how your multichannel images appear with different color blindness using Image > Color > Simulate Color Blindness.
+For color choice, consider that a part of the population is color blind (e.g., red-green blindness) — pairing red and green channels makes the figure unreadable for them and erases the very contrast you intended to show. You can simulate how your multichannel images appear with different color blindness using Image > Color > Simulate Color Blindness.
 
-Also consider the different visibility of different colors on different backgrounds, for instance, dark blue is hard to perceive on a black background; a cyan LUT would be better. Thus, LUTs combinations should be used that visualize images well and for a broad audience. In our experience, the combination of magenta, green, and cyan works well. 
+Also consider the different visibility of different colors on different backgrounds. For instance, dark blue is hard to perceive on a black background; a cyan LUT would be better. Thus, combinations of LUTs should be used that visualize images well and for a broad audience. In our experience, the combination of magenta, green, and cyan works well. 
 
 :::
 
@@ -175,23 +175,23 @@ For the image figure of the example image, we want to visualize channel 1 (mitoc
 
 :::{note}
 
-Channel 4 "C4-multichannel_image.tif" will not be further processed.
-
 For the visualization of a merged color image, we generally recommend using only up to three channels, since three channels can still be easily differentiated using standard LUT choices.
 
-For visualizing more than three channels, we recommend presenting the individual channels in gray-scale side by side. Thus, channel 4 will not be further processed.
+For visualizing more than three channels, we recommend presenting the individual channels in grayscale side by side. 
+
+Thus, channel 4 will not be further processed.
 
 :::
 
-To change the LUT select the image showing a specific channel and then select the LUT using: 
+To change the LUT, select the image showing a specific channel and then select the LUT using: 
 
 Image > Lookup Tables > [Select LUT]
 
-For instance image: C1-multichannel_image.tif
+For example, for image: C1-multichannel_image.tif
 
 Image > Lookup Tables > Magenta
 
-Channel 2 presents already in the green color LUT, defined by in the microscope settings and part of the image metadata. To channel 3, we can use the color LUT:
+Channel 2 is already presented in the green color LUT, as defined in the microscope settings and image metadata. For channel 3, we can use the color LUT:
 
 Select image: C3-multichannel_image.tif
 
@@ -225,7 +225,7 @@ Channel 3
 
 :::{important}
 
-Since the perception of the information in an image is influenced by the color choice, we recommend including gray-scale images at least in the supplements. 
+Since the perception of the information in an image is influenced by the color choice, we recommend including grayscale images at least in the supplements. 
 
 :::
 
@@ -291,12 +291,12 @@ Brightness/Contrast interface:
 - Contrast: Increases or decreases the displayed range to adjust contrast.
 - Auto: Saturates the image by 0.35% steps.
 - Reset: Sets the display to the min and max values in the image or 0-255 for 8-bit.
-- Set: Input fixed values, useful for making comparisons
+- Set: Input fixed values, useful for making comparisons.
 - Apply: Histogram stretching using the set min & max. Caution: not reversible!
 
 In our experience, the only setting that needs to be regularly adjusted is the maximum intensity slider to make the information in the image more visible. Often cycling through a number of "Auto" settings and observing the effect on the visualization can generate good display settings. Typically, the default minimum setting is set to the lowest intensity value present in the image and is good enough. 
 
-The figure processing we demonstrate the full image information (i.e. full resolution with full 16-bit) is also preserved until the final step. Thus hitting the "Apply" button is not needed at any point in this course. 
+In the figure processing we demonstrate how the full image information (i.e., full resolution with full 16-bit) is preserved until the final step. Thus, hitting the "Apply" button is not needed at any point in this course. 
 
 :::{important}
 Do not cut off information in the lower intensities, e.g., removing structures close to the background to make the images prettier. 
@@ -379,7 +379,7 @@ Since the Brightness/Contrast setting can alter the visualized information so dr
 
 One can also provide a calibration bar next to the image. This is particularly useful if the intensity values are calibrated (i.e., photon count, not arbitrary units). In Fiji, a calibration bar can be produced like so:
 
-Select image one of the channels: C1-multichannel_image.tif
+Select an image, e.g., one of the channels: C1-multichannel_image.tif
 
 Provide calibration bar: Analyze > Tools > Calibration Bar…
 
@@ -405,7 +405,7 @@ After the color and brightness are adjusted, the three adjusted single-channel i
 
 Image > Color > Merge Channels...
 
-Assign then the correct channels and LUTs select "Create composite" and then press OK.
+Then assign the correct channels and LUTs, select 'Create composite,' and press OK.
 
 ```{figure} ./unit-1_resources/merge/merge_channels.png
 :alt: In
@@ -440,9 +440,9 @@ We will use the result in [Unit 2: Format and annotations](./unit-2_format.md), 
 
 :::{note}
 
-Merging more than three color channels into a single image for visualization is tricky, as the different combined colors might not be easily distinguished anymore by eye, additive color mixing produces intermediate hues that the eye cannot reliably trace back to individual channels, so channel-specific information is effectively lost. 
+Merging more than three color channels into a single image for visualization is tricky, as the different combined colors might not be easily distinguished anymore by eye. Additive color mixing produces intermediate hues that the eye cannot reliably trace back to individual channels, so channel-specific information is effectively lost. 
 
-More than three channel can be tolerable when the objects in different channels are well separated. However this is often not the case for biological information. Thus, we in general recommend to visualize more than 3 channels separately, ideally using gray scale images. 
+More than three channels can be tolerable when the objects in different channels are well separated. However, this is often not the case for biological information. Thus, we generally recommend visualizing more than three channels separately, ideally using grayscale images. 
 
 :::
 
@@ -494,7 +494,7 @@ Save as .ijm Fiji macro.
 Macro script
 ```
 
-The cool thing is that by pressing “Run” one can reproduce the entire processing. Even cooler is to fully automate the processing of all your images by doing some [simple macro programming](https://imagej.net/scripting/macro). You can download the macro example to test it [Macro.ijm](./unit-1_resources/macro/macro_unit-1.ijm).
+The cool thing is that by pressing "Run," one can reproduce the entire processing. Even cooler is to fully automate the processing of all your images by doing some [simple macro programming](https://imagej.net/scripting/macro). You can download the macro example to test it [Macro.ijm](./unit-1_resources/macro/macro_unit-1.ijm).
 
 :::{note} 
 
@@ -508,9 +508,9 @@ If you want to save the intermediate results, save them as TIFF, as this format 
 
 File > Save As > TIFF...
 
-:::{IMPORTANT}
+:::{important}
 
-In general when saving images use formats that preserve the image information. Do not use file formats that use lossy compression see:
+In general, when saving images, use formats that preserve the image information. Do not use file formats that use lossy compression (see example below):
 
 ```{figure} ./image_ethics_resources/compression.png
 :alt: In
