@@ -19,11 +19,11 @@ In this mini tutorial, we discuss how to use image histograms to check whether a
 
 - Is oversaturation or clipping present at maximum intensity?
 - Is the minimum signal properly sampled?
-- Are there any intensity sampling artifacts
+- Are there any intensity sampling artifacts?
 
 ## Materials
 
-This brief tutorial is using Fiji is just ImageJ (Fiji). All images can be downloaded on the page.
+This brief tutorial uses Fiji (Fiji Is Just ImageJ). All images can be downloaded on the page.
 
 Fiji download: [https://fiji.sc/](https://fiji.sc/) tested with Version ImageJ 2.18.0/1.54p; Java 21.0.7 (64-bit)
 
@@ -38,7 +38,7 @@ Light microscopy images in life sciences represent a measurement of a biological
 
 The spatial dimension is represented as pixels in 2D or voxels in 3D volumes. The time dimension is present either as a single timepoint or as multiple frames in a timelapse. The fluorescent labels are represented as different channels.
 
-Finally, the light intensity that the microscope captures is represented as different shades of gray of each pixel or voxel. This sampling is illustrated in {numref}`sampling`
+Finally, the light intensity that the microscope captures is represented as different shades of gray of each pixel or voxel. This sampling is illustrated in {numref}`sampling`.
 
 ```{figure} ./image_histogram_resources/sampling.png
 :alt: In
@@ -46,7 +46,7 @@ Finally, the light intensity that the microscope captures is represented as diff
 :name: sampling
 :width: 100%
 
-Illustration demonstrating digital sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline and continuous intensity within. (B) A modern microscope samples this signal (yellow grid lines) and transforms (qunatizes) it into a digital representation, thus quantized the continuous analog information into discrete pixels and gray values. (C) The sampled cell as a digital image; note the clear loss of information due to this digital sampling.
+Illustration demonstrating digital sampling in space and intensity. (A) Illustration of a real object, e.g., a cell, with a smooth, continuous outline and continuous intensity within. (B) A modern microscope samples this signal (yellow grid lines) and transforms (quantizes) it into a digital representation, thus quantizing the continuous analog information into discrete pixels and gray values. (C) The sampled cell as a digital image; note the clear loss of information due to this digital sampling.
 ```
 
 ```{admonition} Think about it
@@ -56,19 +56,19 @@ The above example is extreme to illustrate a point. However, image acquisition a
 
 ```
 
-Intensity signals are continuous information and thus have infinite fine detail. In order to store such information we need to convert this information into a different form. In the past we used analog storage media such as film for images. 
+Intensity signals are continuous information and thus have infinite fine detail. In order to store such information, we need to convert this information into a different form. In the past, we used analog storage media such as film for images. 
 
-Now we use digital storage media. The continuous and "infinite" information is converted to discrete and thus finite gray value bins. 
+Now we use digital storage media. The continuous and "infinite" information is converted to discrete and thus finite gray value. 
 
-Why should you care about that? Look below how different number of gray value bins influence how well we can differentiate detail in an image {numref}`bith depth`:
+Why should you care about that? See below how different numbers of gray values influence how well we can differentiate detail in an image {numref}`bit_depth`:
 
 ```{figure} ./image_histogram_resources/bitdepth.png
 :alt: In
 :align: center
-:name: bith depth
+:name: bit_depth
 :width: 100%
 
-Visualization of different intensity sampling on a Fiji sample image. (A) Two gray level bins are available. (B) Four gray level bins. (C) Sixteen gray levels. (D) 256 gray levels.
+Visualization of different intensity sampling on a Fiji sample image. (A) Two gray levels are available. (B) Four gray levels. (C) Sixteen gray levels. (D) 256 gray levels.
 ```
 
 ```{admonition} Think about it
@@ -80,13 +80,13 @@ Would 8-bit therefore be sufficient in terms of gray levels for all applications
 
 ```
 
-The conversion of the continuous signal into gray levels via intensity sampling can be performed also incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
+The conversion of the continuous signal into gray levels via intensity sampling can also be performed incorrectly, or the images can be processed incorrectly afterward, negatively impacting analysis and image visualization. For instance:
 
 - The image can be oversaturated, clipping high intensities.
 - The offset can be set incorrectly, cutting off minimum intensities.
 - Image intensity can be resampled (e.g., converted to a lower bit depth), changing the intensity distribution.
 
-We can check these artifacts using the image itself but often they are not easily visible. See {numref}`sampling_errors`:
+We can check these artifacts using the image itself, but often they are not easily visible. See {numref}`sampling_errors`:
 
 
 ```{figure} ./image_histogram_resources/sampling_errors.png
@@ -126,7 +126,7 @@ You can then create the image histogram of this image here:
 
 Analyze > Histogram
 
-The image histogram shows the intensity distributions over all pixels (black plots). With the x-axis plotting the gray-values and the y-axis plotting the number of pixels {numref}`histogram_good`. 
+The image histogram shows the intensity distributions over all pixels (black plots), with the x-axis plotting the gray values and the y-axis plotting the number of pixels {numref}`histogram_good`. 
 
 ```{figure} ./image_histogram_resources/histogram_good.png
 :alt: In
@@ -137,9 +137,9 @@ The image histogram shows the intensity distributions over all pixels (black plo
 Image Histogram
 ```
 
-There are two peaks, see {numref}`histogram_annotated`. (A) The first sharp peak has many pixels with low gray-values. These values correspond mostly to the background of the image (e.g., dark pixels). (B) The second flatter peak shows pixels with a wide distribution over different larger gray values. These correspond to the signal from the imaged object. (C) Below you will find a calibration bar that shows the minimum and maximum values displayed and their corresponding displayed gray value. 
+There are two peaks, see {numref}`histogram_annotated`. (A) The first sharp peak has many pixels with low gray values. These values correspond mostly to the background of the image (e.g., dark pixels). (B) The second flatter peak shows pixels with a wide distribution over different larger gray values. These correspond to the signal from the imaged object. (C) Below you will find a calibration bar that shows the minimum and maximum values displayed and their corresponding displayed gray value. 
 
-Additionally the histogram window shows basic intensity statistics from this specific image such as the total number of pixels (N), mean (Mean), standard deviation (StdDev), minimum value (Min) and maximum value (Max). For more information please look into the [ImageJ documentation](https://imagej.net/ij/docs/menus/analyze.html#hist)
+Additionally, the histogram window shows basic intensity statistics from this specific image such as the total number of pixels (N), mean (Mean), standard deviation (StdDev), minimum value (Min), and maximum value (Max). For more information, please look into the [ImageJ documentation](https://imagej.net/ij/docs/menus/analyze.html#hist).
 
 ```{figure} ./image_histogram_resources/histogram_annotated.png
 :alt: In
@@ -150,7 +150,7 @@ Additionally the histogram window shows basic intensity statistics from this spe
 Information in the histogram
 ```
 
-The second peak is often not easily visible. Thus we can apply a log scale on the y-axis to better visualize the less abundant gray values. The intensity distribution using the log scale is overlaid as gray plots see {numref}`histogram_good_log`:
+The second peak is often not easily visible. Thus, we can apply a log scale on the y-axis to better visualize the less abundant gray values. The intensity distribution using the log scale is overlaid as gray plots, see {numref}`histogram_good_log`:
 
 ```{figure} ./image_histogram_resources/histogram_good_log.png
 :alt: In
@@ -184,7 +184,7 @@ Variation and noise are often seen as something bad that should be suppressed or
 
 ## Intensity artifacts in Histograms
 
-Since we now understand how a regular histogram should look we can study different intensity sampling problems. Download the example images (B-E) from the example figure {numref}`sampling_errors` here: 
+Since we now understand how a regular histogram should look, we can study different intensity sampling problems. Download the example images (B-E) from the example figure {numref}`sampling_errors` here: 
 
 - [B_image.png](./image_histogram_resources/B_image.png)
 - [C_image.png](./image_histogram_resources/C_image.png)
@@ -247,15 +247,15 @@ High intensity values cut, i.e., clipped. Oversaturation
 
 :::{note}
 
-For an effective image visualization it might be required to oversaturate the image. As otherwise the image content might not be visible in the medium of visualization (projector, computer screen or printed paper). 
+For an effective image visualization, it might be required to oversaturate the image, as otherwise the image content might not be visible in the medium of visualization (projector, computer screen, or printed paper).
 
-This is permissible for display of images as long as ethical image processing is respected see: [Ethical image processing](./image_ethics.md). However, such images are in general not useful for downstream quantitative analysis. Thus, perform quantitative image analysis on the original unprocessed image. 
+This is permissible for display of images as long as ethical image processing is respected (see [Ethical image processing](./image_ethics.md)). However, such images are in general not useful for downstream quantitative analysis. Thus, quantitative image analysis should be performed on the original, unprocessed image.
 
 :::
 
 ### Histogram rescaled
 
-[E_image.png](./image_histogram_resources/E_image.png) finally shows an image processing artifact. The intensity has been rescaled such that the continuity of the intensity distribution is interrupted, instead of a smooth histogram, we see gaps or comb-like spikes at regular intervals, where certain intensity values are missing or overrepresented. This pattern indicates that the image has been resampled or converted (e.g., to a lower bit depth) after acquisition, rather than reflecting the original measurement. 
+[E_image.png](./image_histogram_resources/E_image.png) finally shows an image processing artifact. The intensity has been rescaled such that the continuity of the intensity distribution is interrupted. Instead of a continuous histogram, we see gaps or comb-like spikes at regular intervals, where certain intensity values are missing or overrepresented. This pattern indicates that the image has been resampled or converted (e.g., to a lower bit depth) after acquisition, rather than reflecting the original measurement. 
 
 As with the previous examples, this makes accurate quantitative comparison unreliable, since the recorded values no longer correspond directly to the original signal. 
 
