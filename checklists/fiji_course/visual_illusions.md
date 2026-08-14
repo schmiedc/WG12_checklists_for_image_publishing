@@ -13,7 +13,7 @@ name: color_illusion
 
 The first illusion demonstrates that color perception depends on context. There are three colored circles in this image. They all have the same color. However, their appearance differs depending on the background color: on the yellow background the circle appears light green, and on the green background it appears light yellow.
 
-Our visual perception is achieved in part by the astounding visual processing of our brain. These flaws, or visual illusions, are in part due to this massive visual processing. For good scientific visualization of images it is critical to understand that human vision is not truly quantitative.
+Our powerful visual perception is achieved in part by the astounding visual processing of our brain. These flaws, or visual illusions, are in part due to this massive visual processing. For good scientific visualization of images it is critical to understand that human vision is not truly quantitative.
 
 This is clearly demonstrated by the second illustration. There are three squares in this animation. They have the same gray level. However, the background alters their perceived gray level. The true signal intensity is only revealed by measurement.
 

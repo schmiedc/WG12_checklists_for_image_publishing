@@ -170,7 +170,7 @@ Further reading list for quantitative microscopy:
 - North AJ. Seeing is believing? A beginners' guide to practical pitfalls in image acquisition. J Cell Biol. 2006 Jan 2;172(1):9-18. doi: [10.1083/jcb.200507103](https://doi.org/10.1083/jcb.200507103)
 - Waters JC. Accuracy and precision in quantitative fluorescence microscopy. J Cell Biol. 2009 Jun 29;185(7):1135-48. doi: [10.1083/jcb.200903097](https://doi.org/10.1083/jcb.200903097)
 
-
+(lossy_compression)=
 ## Avoid the Use of Lossy Compression
 
 ```{figure} ./image_ethics_resources/compression.png

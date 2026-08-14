@@ -158,7 +158,7 @@ Import images at 300 dpi, as this is the required printing resolution of most jo
 
 The first step is to resize the image to fit the image figure. When resizing make sure to lock the aspect ratio and resize the image uniformly. After import the annotations can be edited. 
 
-```{figure} ./unit-3_resources/annotations/inkscape_resize.png
+```{figure} ./unit-3_resources/annotations/inkscape_resize_arrow.png
 :alt: In
 :align: center
 :name: inkscape_resize
@@ -167,7 +167,7 @@ The first step is to resize the image to fit the image figure. When resizing mak
 Resize image panel to fit the figure. Note: the lock on the aspect ration to resize the image uniformly.
 ```
 
-Next you can select annotation in Layers and Objects. Unlock the annotation if locked to modify them. Modify the size and location of the annotation.
+Next you can select annotation in Layers and Objects. Modify the size and location of the annotation.
 
 Layer > Layers and Objects...
 
@@ -193,7 +193,7 @@ Ensure that the annotations are legible. Make sure the annotations do not obscur
 :name: inkscape_annotations
 :width: 100%
 
-The ROI - 0001-0510-0498, the scale bar and scale bar text - |SB|, and the image - 02_composite_scale.tif (RGB) is shown. Note: the scale bars are locked.
+The ROI - 0001-0510-0498, the scale bar and scale bar text - |SB|, and the image - 02_composite_scale.tif (RGB) is shown.
 ```
 
 Select the annotation you want to modify in the layers and objects interface. Then edit height and location of scale bar. Edit the dimension annotation such that it is uniform and legible across all images.
@@ -224,7 +224,9 @@ If different image panels have the same scale bar, you can put the scale bar in 
 Different examples of annotated scale. 
 ```
 
-In Inkscape (or any other vector graphics tool), we can then add other annotations. We recommend adding all important annotations that are needed to easily interpret the image figures directly in the image figure. Specifically for multichannel images, an explanation of the colors should be provided. Also, the location of the inset or an enlarged crop should be marked in the overview. Select the ROI in the layers panel:
+In Inkscape (or any other vector graphics tool), we can then add other annotations. We recommend adding all important annotations that are needed to easily interpret the image figures directly in the image figure. Specifically for multichannel images, an explanation of the colors should be provided. 
+
+Also, the location of the inset or an enlarged crop should be marked in the overview. Select the ROI in the layers panel:
 
 ```{figure} ./unit-3_resources/annotations/inkscape_roi.png
 :alt: In

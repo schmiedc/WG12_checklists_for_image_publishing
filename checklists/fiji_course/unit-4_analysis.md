@@ -11,7 +11,9 @@ Time needed: 10 min
 
 ## Motivation
 
-Quantitative results are stronger than qualitative results alone. However, it is critical that the analysis, the tools used, and their settings are all properly documented in the methods. For a custom analysis, the workflow or code itself should be shared so others can reproduce it. 
+Quantitative results are stronger than qualitative results alone. Additionally, human vision is not quantitative and is subject to visual illusions and biases: {ref}`visual_illusions`. 
+
+To make the applied analysis reproducible it is critical that the analysis, the tools used, and their settings are all properly documented in the methods. For a custom analysis, the workflow or code itself should be shared so others can reproduce it. 
 
 ## Key considerations
 

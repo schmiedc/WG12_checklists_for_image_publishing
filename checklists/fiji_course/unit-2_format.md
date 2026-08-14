@@ -247,7 +247,6 @@ The result images will be used in [Unit 3: Figure and availability](./unit-3_fig
 
 ## Bonus: ROI Manager and overlays
 
-
 You can manage multiple ROIs and also annotations via the ROI Manager. First we need to make sure that any ROIs (or selections) are available in the overlay: 
 
 Image > Overlay > Add Selection...
@@ -288,7 +287,26 @@ Alternatively, pressing "t" on the keyboard will also open the ROI Manager and a
 
 ROI Manager window.
 ```
-
-
 :::
+
+## Save result
+
+If you want to save the intermediate results, save them as TIFF, as this format preserves the image information and any additional layers:
+
+File > Save As > TIFF...
+
+:::{IMPORTANT}
+
+In general when saving images use formats that preserve the image information. Do not use file formats that use lossy compression see:
+
+```{figure} ./image_ethics_resources/compression.png
+:alt: In
+:align: center
+:name: compression_format
+:width: 50%
+
+Effect of lossy compression due to JPEG compression: (Left) Unprocessed example. (Right) Copy saved as .jpg. 
+```
+:::
+
 

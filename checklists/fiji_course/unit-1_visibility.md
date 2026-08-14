@@ -501,3 +501,23 @@ The cool thing is that by pressing “Run” one can reproduce the entire proces
 For the macro to work, the "multichannel_image.tif" image needs to be open under this exact name in Fiji.
 
 :::
+
+## Save result
+
+If you want to save the intermediate results, save them as TIFF, as this format preserves the image information and any additional layers:
+
+File > Save As > TIFF...
+
+:::{IMPORTANT}
+
+In general when saving images use formats that preserve the image information. Do not use file formats that use lossy compression see:
+
+```{figure} ./image_ethics_resources/compression.png
+:alt: In
+:align: center
+:name: compression_visibility
+:width: 50%
+
+Effect of lossy compression due to JPEG compression: (Left) Unprocessed example. (Right) Copy saved as .jpg. 
+```
+:::
