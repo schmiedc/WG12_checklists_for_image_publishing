@@ -3,7 +3,7 @@
 
 This course shows in practice how to create a scientific image figure. It deliberately focuses on only the most critical items that affect whether a figure is legible and truthful. The condensed checklist below shows the covered items. 
 
-For the complete set of recommendations, see the full [Checklists](https://doi.org/10.1038/s41592-023-01987-9). 
+For the complete set of recommendations, see the full set of [checklists](https://doi.org/10.1038/s41592-023-01987-9). 
 
 ```{figure} ./intro_resources/condensed_checklist.png
 :alt: In
@@ -15,9 +15,11 @@ Condensed checklists.
 
 ## Who this course is for
 
-Any person who wants to process scientific images for visualization in image figures (e.g. scientific articles, posters, presentations).
+This course is for anyone who wants to process scientific images for visualization in image figures (e.g., scientific articles, posters, presentations).
 
 This course assumes no prior knowledge of image processing. It uses the freely accessible, open-source tools [Fiji](https://fiji.sc/) and [Inkscape](https://inkscape.org/).
+
+This is a hands-on course providing examples that students can implement themselves. The principles and instructions can also be applied to your own images.
 
 :::{note}
 
@@ -51,7 +53,7 @@ The units follow the image processing workflow step by step: adjusting visibilit
 |3.|[Unit 3: Figure and availability](./unit-3_figure_prep.md)|Create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions, and make the underlying image data available in a public repository, so that the data and image processing are fully documented and communicated.|15 min|
 |4.|[Unit 4: Quantification](./unit-4_analysis.md)            |Perform a basic quantitative image analysis using an existing tool, document the software, tool versions, and analysis settings used, and identify what needs to be shared (code, settings files, example data) so that custom or existing analyses are transparent and reproducible by others.| 10 min |
 
-Total time for course about 1-2 hours. Each teaching unit is self-contained and can be executed individually. The individual tasks performed in each unit can also be followed using the condensed checklist (see {numref}`figure-checklist`).
+Total time for the course is about 1–2 hours. Each teaching unit is self-contained and can be executed individually. The individual tasks performed in each unit can also be followed using the condensed checklist (see {numref}`figure-checklist`).
 
 For more content on image processing ethics and image interpolation, see: [Further information](./intro_background.md).   
 
@@ -68,7 +70,7 @@ The course shown here contains all necessary image data as a download.
 
 We selected Fiji and Inkscape because they are free, open source, and familiar to the authors. The underlying principles can be applied to other tools. 
 
-We recommend to use the latest versions of these programs. 
+We recommend using the latest versions of these programs.
 :::
 
 
@@ -85,7 +87,7 @@ Wolff C. et al. Morphological profiling data resource enables prediction of chem
 Input, processed, and result images can also be downloaded from a [Zenodo repository](https://doi.org/10.5281/zenodo.19852464).
 
 (further-material-acquisition)=
-## Further material: Image acquistion
+## Further material: Image acquisition
 
 This course assumes that well-acquired images are already available. Image acquisition presents its own challenges and care must be taken to acquire images at appropriate resolution and with proper intensity sampling. 
 
@@ -116,6 +118,6 @@ Further reading on this topic:
 
 ## Help
 
-If you need help write to the team on [image.sc](https://forum.image.sc/): [https://forum.image.sc/tag/quarep](https://forum.image.sc/tag/quarep). 
+If you need help, write to the team on [image.sc](https://forum.image.sc/): [https://forum.image.sc/tag/quarep](https://forum.image.sc/tag/quarep). 
 
 You can also reach out to the creator of this tutorial: [schmiedc](https://forum.image.sc/u/schmiedc) 
