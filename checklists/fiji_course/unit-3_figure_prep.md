@@ -176,7 +176,7 @@ The first step is to resize the image to fit the image figure. When resizing, ma
 Resize image panel to fit the figure. Note the lock on the aspect ratio, used to resize the image uniformly.
 ```
 
-## Annotations
+## Modify scale bar
 
 Next, you can select an annotation in Layers and Objects. Modify the size and location of the annotation.
 
@@ -235,6 +235,8 @@ If different image panels have the same scale bar, you can put the scale bar in 
 Different examples of annotated scale. 
 ```
 
+## Modify ROIs
+
 In Inkscape (or any other vector graphics tool), we can then add other annotations. We recommend adding all important annotations that are needed to easily interpret the image figures directly in the image figure. Specifically for multichannel images, an explanation of the colors should be provided. 
 
 Also, the location of the inset or an enlarged crop should be marked in the overview. Select the ROI in the layers panel:
@@ -291,6 +293,8 @@ After the color has been adjusted, modify the line width of the ROI. Select the 
 
 Adjust the width of the ROI lines so that the ROI is clearly visible.
 ```
+
+## Further annotations: Arrows, labels etc
 
 Consider adding annotations, such as cell type and treatment, to help the viewer interpret your results more quickly. You can also use arrows or other symbols to highlight specific areas of interest within the data.
 
