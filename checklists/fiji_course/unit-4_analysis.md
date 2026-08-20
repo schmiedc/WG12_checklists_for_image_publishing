@@ -68,7 +68,7 @@ Press OK and restart Fiji.
 
 Save the example images in an input folder (e.g., test). OrgaMapper documents the analysis settings using an .xml file. Please download the settings: [settings .xml](./unit-4_resources/existing_workflow/2026-04-13T175308-settings.xml) (right-click and select "Save Link As...") and put it into the input folder. Create an output folder (e.g., test_out). 
 
-Start OrgaMapper:
+## Start OrgaMapper
 
 Plugins > CellularImaging > Map Organelle
 
@@ -82,6 +82,8 @@ Specify the location of the input folder, output folder, and the settings file. 
 
 Start OrgaMapper.
 ```
+
+## Image analysis
 
 OrgaMapper then performs a simple watershed-based image segmentation and a basic per-cell analysis on both the control and treatment images. For more information about the analysis performed, you can go to the [documentation of OrgaMapper](https://schmiedc.github.io/OrgaMapper/). 
 
@@ -106,6 +108,8 @@ To execute the analysis, press the "Batch Process" button. OrgaMapper then perfo
 
 OrgaMapper Results.
 ```
+
+## Image analysis results
 
 It is critical that we can extract the cell area in the "cellMeasurements.csv" file:
 
