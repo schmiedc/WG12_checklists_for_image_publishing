@@ -35,14 +35,6 @@ The same multi-channel image visualized in different forms, all failing to commu
 - What do the colors mean?
 - Is the information accessible to a wide audience?
 
-:::{note}
-
-A further foundational consideration is also that the image used for visualization is of sufficient quality. For further information on how to assess intensity quality in images using image histograms, please see: {ref}`image_histogram`. 
-
-We have also collected material concerning correct image acquisition here: {ref}`further-material-acquisition`.
-
-:::
-
 :::{important}
 
 Another important aspect that we should also consider at this stage is the choice of images. Typically, an image dataset is acquired instead of just a single image, and the chosen image shapes how the reader perceives the result — picking an unusually striking or atypical example (an "edge of distribution" image) misrepresents the data and overstates the science. Acceptable methods to choose an image for a figure could be:
@@ -52,6 +44,12 @@ Another important aspect that we should also consider at this stage is the choic
 - Show multiple examples of the range of phenotypes
 
 :::
+
+## Foundational considerations
+
+An important foundational consideration is also that the image used for visualization is of sufficient quality. For further information on how to assess intensity quality in images using image histograms, please see: {ref}`image_histogram`. 
+
+We have also collected material concerning correct image acquisition here: {ref}`further-material-acquisition`.
 
 ## Load example images
 
@@ -336,6 +334,8 @@ In our experience, the only setting that needs to be regularly adjusted is the m
 
 In the figure processing we demonstrate how the full image information (i.e., full resolution with full 16-bit) is preserved until the final step. Thus, hitting the "Apply" button is not needed at any point in this course. 
 
+## Pitfalls of brightness/contrast adjustments
+
 :::{important}
 Do not cut off information in the lower intensities, e.g., removing structures close to the background to make the images prettier. 
 
@@ -378,6 +378,8 @@ Background cut too much: Note loss of lower intensity information.
 
 ::::
 
+## Adjust brightness/contrast
+
 Adjust the maximum slider or press "Auto" until the objects are well visible and still clearly separated. Oversaturation collapses neighboring high-intensity structures into a single bright blob, effectively losing spatial resolution and the ability to distinguish individual objects.
 
 ::::{grid} 3
@@ -414,6 +416,8 @@ For multi-channel images, the same settings across the channels might not be fea
 Since the Brightness/Contrast setting can alter the visualized information so drastically, we recommend:
 - Original images are provided for image figures (i.e., via image repository). 
 - Minimum and maximum settings are recorded in the methods. 
+
+## Provide color scales
 
 One can also provide a calibration bar next to the image. This is particularly useful if the intensity values are calibrated (i.e., photon count, not arbitrary units). In Fiji, a calibration bar can be produced like so:
 
