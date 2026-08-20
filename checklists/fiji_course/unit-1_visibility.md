@@ -53,11 +53,7 @@ Another important aspect that we should also consider at this stage is the choic
 
 :::
 
-
-
-
-
-## Load and prepare example images
+## Load example images
 
 This tutorial starts with a multi-channel image ({numref}`multichannel_image`). Download a TIFF of the example image here: [multichannel_image.tif](./unit-1_resources/unit-1_examples/multichannel_image.tif).
 
@@ -90,6 +86,8 @@ Multichannel image
 Work on a copy of the image: Image > Duplicate... (Ctrl + Shift + D; Mac: ⌘ + Shift + D)
 
 :::
+
+## Split channels
 
 In order to process individual channels, we need to first split the multi-channel image into single channels.
 
@@ -224,12 +222,50 @@ Channel 3
 
 ::::
 
+## Provide grayscale images at least in supplements
 
 :::{important}
 
-Since the perception of the information in an image is influenced by the color choice, we recommend including grayscale images at least in the supplements. 
+Since the perception of the information in an image is influenced by the color choice, we recommend including grayscale images at least in the supplements.
 
 :::
+
+Select image: C1-multichannel_image.tif
+Image > Lookup Tables > Grays
+
+Select image: C3-multichannel_image.tif
+Image > Lookup Tables > Grays
+
+Select image: C3-multichannel_image.tif
+Image > Lookup Tables > Grays
+
+Save these images for further sharing:
+File > Save As > Tiff...
+
+::::{grid} 3
+:gutter: 2
+
+:::{grid-item}
+```{figure} ./unit-1_resources/colors/C1-multichannel_image_grays.png
+:width: 100%
+Channel 1
+:::
+
+:::{grid-item}
+
+```{figure} ./unit-1_resources/colors/C2-multichannel_image_grays.png
+:width: 100%
+Channel 2
+:::
+
+:::{grid-item}
+
+```{figure} ./unit-1_resources/colors/C3-multichannel_image_grays.png
+:width: 100%
+Channel 3
+:::
+
+::::
 
 :::{tip}
 
@@ -356,7 +392,7 @@ Channel 1: Min = 308; Max = 2484
 :::{grid-item}
 ```{figure} ./unit-1_resources/brightness_contrast/C2-multichannel_image_bc.png
 :width: 100%
-Channel 2: Min = 84 Max = 2965
+Channel 2: Min = 84; Max = 2965
 :::
 
 :::{grid-item}
