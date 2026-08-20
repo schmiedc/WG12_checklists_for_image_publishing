@@ -234,11 +234,7 @@ Image > Color > Invert LUTs
 
 ## Provide grayscale images at least in supplements
 
-:::{important}
-
 Since the perception of the information in an image is influenced by the color choice, we recommend including grayscale images at least in the supplements.
-
-:::
 
 Select image: C1-multichannel_image.tif
 Image > Lookup Tables > Grays

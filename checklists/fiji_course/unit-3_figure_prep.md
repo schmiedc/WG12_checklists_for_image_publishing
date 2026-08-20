@@ -218,13 +218,9 @@ Select the annotation you want to modify in the layers and objects interface. Th
 Scale bar adjusted for height and location. The dimension will be specified in the figure legends.
 ```
 
-:::{tip}
+## Examples of scale bars
 
-To make annotations simpler in the image, one can specify the physical dimension that the scale bar represents also in the figure legends. To easily retrieve this information, one can drag the scale bar text outside the canvas. 
-
-If different image panels have the same scale bar, you can put the scale bar in the first image. It is critical that images of different dimensions (e.g., overview and enlarged) show the correct scale.   
-
-:::
+Scale bars can be presented in different forms and location. Make sure that they do not obscure data and any writing is legible.
 
 ```{figure} ./unit-3_resources/annotations/edited_annotation2.png
 :alt: In
@@ -234,6 +230,14 @@ If different image panels have the same scale bar, you can put the scale bar in 
 
 Different examples of annotated scale. 
 ```
+:::{tip}
+
+To make annotations simpler in the image, one can specify the physical dimension that the scale bar represents also in the figure legends. To easily retrieve this information, one can drag the scale bar text outside the canvas. 
+
+If different image panels have the same scale bar, you can put the scale bar in the first image. It is critical that images of different dimensions (e.g., overview and enlarged) show the correct scale.   
+
+:::
+
 
 ## Modify ROIs
 
