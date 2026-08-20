@@ -222,6 +222,18 @@ Channel 3
 
 ::::
 
+:::{tip}
+
+For these grayscale microscopy images, it is important to choose appropriate color LUTs (e.g., linear color range) that communicate the image information effectively (e.g., good visibility). 
+
+Color choice can also be based on conventions in the field (e.g., Nucleus = Cyan, Membrane = Magenta, Cytoplasm = Green). Alternatively, colors can also correspond to the used fluorophore (e.g., DAPI = Cyan, Green fluorescent protein (GFP) = green, red fluorescent protein (RFP) = magenta). 
+
+The color LUT can also be inverted to visualize the information better:
+
+Image > Color > Invert LUTs
+
+:::
+
 ## Provide grayscale images at least in supplements
 
 :::{important}
@@ -266,18 +278,6 @@ Channel 3
 :::
 
 ::::
-
-:::{tip}
-
-For these grayscale microscopy images, it is important to choose appropriate color LUTs (e.g., linear color range) that communicate the image information effectively (e.g., good visibility). 
-
-Color choice can also be based on conventions in the field (e.g., Nucleus = Cyan, Membrane = Magenta, Cytoplasm = Green). Alternatively, colors can also correspond to the used fluorophore (e.g., DAPI = Cyan, Green fluorescent protein (GFP) = green, red fluorescent protein (RFP) = magenta). 
-
-The color LUT can also be inverted to visualize the information better:
-
-Image > Color > Invert LUTs
-
-:::
 
 (brightness-contrast)=
 ## Brightness and Contrast
