@@ -415,7 +415,7 @@ As long as it is legally and technically feasible, the original images as well a
 
 In the final [Unit 4: Quantification](./unit-4_analysis.md), we will complete the course by performing a basic quantitative image analysis using an existing tool, documenting the software, tool versions, and analysis settings used, and identifying what needs to be shared (code, settings files, example data).
 
-## Bonus: Color and grayscale figure
+## Bonus: Grayscale figure
 
 Providing the individual grayscale channels provides much better visualization of the image content. This is beneficial if you talk about structures in a specific channel for instance. Also the image information is much better to view in grayscale.  
 
