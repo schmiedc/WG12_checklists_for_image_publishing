@@ -156,6 +156,8 @@ Manual thresholds based on fluorescent intensity (A.U.) are image-data specific.
 
 For this analysis, we could just as easily write a custom Fiji macro instead of using an existing plugin. In that case, the code is itself the analysis, so the macro and a small example dataset should be deposited in a data or code repository — without these, neither reviewers nor future readers can verify or reproduce what was done. 
 
+See also: Miura K, Nørrelykke SF. Reproducible image handling and analysis. EMBO J. 2021 [https://doi.org/10.15252/embj.2020105889](https://doi.org/10.15252/embj.2020105889)
+
 ## Code and example availability
 
 

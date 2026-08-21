@@ -389,6 +389,7 @@ Examples of different repositories. Overview provided by [Cimini 2023](https://d
 ```
 As long as it is legally and technically feasible, the original images as well as the final processed images should be made available in public repositories. The original images should be provided in a losslessly compressed format along with any ground truth or manual annotations.
 
+
 ## Next unit
 
 In the final [Unit 4: Quantification](./unit-4_analysis.md), we will complete the course by performing a basic quantitative image analysis using an existing tool, documenting the software, tool versions, and analysis settings used, and identifying what needs to be shared (code, settings files, example data).

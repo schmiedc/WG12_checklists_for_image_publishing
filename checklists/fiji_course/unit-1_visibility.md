@@ -177,7 +177,7 @@ For the visualization of a merged color image, we generally recommend using only
 
 For visualizing more than three channels, we recommend presenting the individual channels in grayscale side by side. 
 
-Thus, channel 4 will not be further processed.
+Thus, channel 4 will not be further processed in the merged visualization.
 
 :::
 
@@ -245,10 +245,10 @@ Image > Lookup Tables > Grays
 Select image: C3-multichannel_image.tif
 Image > Lookup Tables > Grays
 
-Save these images for further sharing:
-File > Save As > Tiff...
+Select image: C4-multichannel_image.tif
+Image > Lookup Tables > Grays
 
-::::{grid} 3
+::::{grid} 4
 :gutter: 2
 
 :::{grid-item}
@@ -271,7 +271,17 @@ Channel 2
 Channel 3
 :::
 
+:::{grid-item}
+
+```{figure} ./unit-1_resources/colors/C4-multichannel_image_grays.png
+:width: 100%
+Channel 4
+:::
+
 ::::
+
+Save these images for further sharing:
+File > Save As > Tiff...
 
 (brightness-contrast)=
 ## Brightness and Contrast
