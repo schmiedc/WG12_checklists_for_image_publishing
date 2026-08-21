@@ -35,21 +35,17 @@ The same multi-channel image visualized in different forms, all failing to commu
 - What do the colors mean?
 - Is the information accessible to a wide audience?
 
-:::{important}
+## Considerations beyond this course
 
-Another important aspect that we should also consider at this stage is the choice of images. Typically, an image dataset is acquired instead of just a single image, and the chosen image shapes how the reader perceives the result — picking an unusually striking or atypical example (an "edge of distribution" image) misrepresents the data and overstates the science. Acceptable methods to choose an image for a figure could be:
+It's also important that the image used for visualization is of sufficient quality. For further information on how to assess intensity quality in images using image histograms, please see: {ref}`image_histogram`. 
+
+We have also collected material concerning correct image acquisition here: {ref}`further-material-acquisition`.
+
+Another aspect that we should also consider at this stage is the choice of images. Typically, an image dataset is acquired instead of just a single image, and the chosen image shapes how the reader perceives the result — picking an unusually striking or atypical example (an "edge of distribution" image) misrepresents the data and overstates the science. Acceptable methods to choose an image for a figure could be:
 - Representative image
 - Random selection
 - Based on analysis (middle of distribution)
 - Show multiple examples of the range of phenotypes
-
-:::
-
-## Foundational considerations
-
-An important foundational consideration is also that the image used for visualization is of sufficient quality. For further information on how to assess intensity quality in images using image histograms, please see: {ref}`image_histogram`. 
-
-We have also collected material concerning correct image acquisition here: {ref}`further-material-acquisition`.
 
 ## Load example images
 
