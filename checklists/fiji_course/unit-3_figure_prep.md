@@ -67,7 +67,7 @@ For an accurate qualitative comparison, the images need to be processed with the
 You can download the result here: [composite_treat_scale.tif](./unit-3_resources/examples/composite_treat_scale.tif) and [composite_treat_crop_scale.tif](./unit-3_resources/examples/composite_treat_crop_scale.tif).
 
 
-## Figure setup with BioVoxxel Figure Tools
+## BioVoxxel Figure Tools
 
 The final image figure will be created in a vector graphics program (i.e., Inkscape). For exporting the raster graphics images as vector graphics files, we are going to use the BioVoxxel Figure Tools plugin. 
 
@@ -298,7 +298,7 @@ After the color has been adjusted, modify the line width of the ROI. Select the 
 Adjust the width of the ROI lines so that the ROI is clearly visible.
 ```
 
-## Further annotations: Arrows, labels etc
+## Additional annotations
 
 Consider adding annotations, such as cell type and treatment, to help the viewer interpret your results more quickly. You can also use arrows or other symbols to highlight specific areas of interest within the data.
 
@@ -311,12 +311,27 @@ Consider adding annotations, such as cell type and treatment, to help the viewer
 Example of possible annotations in an image.
 ```
 
+
 ## Export image figure
 
+If you have finalized the image figure you can then export it for sharing. 
 
->>> 300dpi
+Go to: File > Export...
 
-You can download the result of the tutorial here: [figure_example.svg](./unit-3_resources/examples/figure_example.svg) (right-click and select "Save Link As...").
+You can then define what you export (e.g., entire Page, specific selection). For export and sharing as a Raster Graphic (e.g., TIFF) with a journal choose at least 300 dpi resolution. 
+
+Finally define the location for saving and a export format. We recommend PDF (*.pdf):
+
+```{figure} ./unit-3_resources/figure/export_figure.png
+:alt: In
+:align: center
+:name: export_figure
+:width: 100%
+
+Example of possible annotations in an image.
+```
+
+You can download the intermediate result of the tutorial here: [figure_example.svg](./unit-3_resources/examples/figure_example.svg) (right-click and select "Save Link As...").
 
 
 ## Figure legends

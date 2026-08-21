@@ -40,7 +40,7 @@ Download the example images here:
 - [multichannel_image.tif](./unit-1_resources/unit-1_examples/multichannel_image.tif).
 - [multichannel_image_treat.tif](./unit-3_resources/examples/multichannel_image_treat.tif).
 
-## Analysis based on existing workflows
+## Analysis based on existing workflow
 
 For our example images, we were able to adopt a published tool, OrgaMapper:
 

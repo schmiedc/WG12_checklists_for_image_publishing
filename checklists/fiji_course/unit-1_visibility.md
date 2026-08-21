@@ -228,7 +228,7 @@ Image > Color > Invert LUTs
 
 :::
 
-## Provide grayscale images at least in supplements
+## Provide grayscale images
 
 Since the perception of the information in an image is influenced by the color choice, we recommend including grayscale images at least in the supplements.
 
@@ -336,7 +336,7 @@ In our experience, the only setting that needs to be regularly adjusted is the m
 
 In the figure processing we demonstrate how the full image information (i.e., full resolution with full 16-bit) is preserved until the final step. Thus, hitting the "Apply" button is not needed at any point in this course. 
 
-## Pitfalls of brightness/contrast adjustments
+## Pitfalls of brightness/contrast
 
 The Brightness/Contrast setting is a powerful setting that can drastically alter the visualized information of the image. For demonstration purposes, here are a couple of examples of how the same content can be visualized. 
 
