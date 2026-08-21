@@ -105,7 +105,7 @@ To execute the analysis, press the "Batch Process" button. OrgaMapper then perfo
 :alt: In
 :align: center
 :name: orgamapper_results
-:width: 50%
+:width: 75%
 
 OrgaMapper Results.
 ```
@@ -118,7 +118,7 @@ It is critical that we can extract the cell area in the "cellMeasurements.csv" f
 :alt: In
 :align: center
 :name: orgamapper_cellarea
-:width: 50%
+:width: 75%
 
 OrgaMapper cell area results.
 ```
@@ -134,24 +134,23 @@ Nocodazole|23	                     |6	                        |29           |79 
 
 This quantification could now be in the result of your manuscript. 
 
-## Exercise: Document performed processing
+## Exercise: Document methods
 
 Applied scientific methods need to be transparent and reproducible. Thus, it is important to properly document the performed analysis. For this, it is again critical to document the used software platform as well as the tools and their versions.
 
-:::{note} Think about it
+```{admonition}  Think about it
 
 What are key parts that you need to document for others to reproduce the analysis?
 
 Imagine yourself years later and you have new data and want to repeat an analysis. What would you need?
-
-:::
+```
 
 Material for creating this documentation:
 - Fiji, Plugin interface, settings file
 - Documentation: [https://schmiedc.github.io/OrgaMapper/](https://schmiedc.github.io/OrgaMapper/)
 
 
-## Proposed solution
+## Solution: Proposed methods
 
 We have outlined the critical aspects in the key considerations:
 
@@ -160,9 +159,13 @@ We have outlined the critical aspects in the key considerations:
 - Is the workflow with the different processing steps described?
 - Are critical parameters disclosed?
 
-A potential methods section could look like this.
+A potential methods section could look like this:
 
-Image analysis was performed using Fiji Is Just ImageJ (Fiji) ([Schindelin et al. 2012](https://doi.org/10.1038/nmeth.2019)) version 2.16/1.54p and the OrgaMapper plugin version 2.0.0 ([Schmied et al. 2024](https://doi.org/10.1186/s12915-024-02015-8)). Nuclei were segmented using an intensity-based segmentation with the Li automatic threshold after filtering with a median filter (size 5 pixels) and a rolling-ball background subtraction (radius 10 pixels). After thresholding, an erosion of 1 pixel was applied to the nuclei masks, and the segmented nuclei were filtered by size, keeping those between 1 µm² and 750 µm². The cell area was segmented using a manual intensity threshold of 150 fluorescent intensity (A.U.) after a median filter (size 10 pixels) and a rolling-ball background subtraction (radius 150 pixels). For the watershed-based cell segmentation, cell centers were detected using a summed nuclei and cytoplasm channel: a Laplacian-of-Gaussian filter was applied with a sigma of 2 pixels, and peaks with a prominence of 40 fluorescent intensity (A.U.) were retained. Separated cells were then filtered by keeping cells above 10 µm² with a circularity above 0.3. For each cell, the cell area was further analyzed. Small cells were defined as those with an area below 1000 µm².
+Image analysis was performed using Fiji Is Just ImageJ (Fiji) ([Schindelin et al. 2012](https://doi.org/10.1038/nmeth.2019)) version 2.16/1.54p and the OrgaMapper plugin version 3.0.0 ([Schmied et al. 2024](https://doi.org/10.1186/s12915-024-02015-8)). 
+
+Nuclei were segmented using an intensity-based segmentation with the Li automatic threshold after filtering with a median filter (size 5 pixels) and a rolling-ball background subtraction (radius 10 pixels). After thresholding, an erosion of 1 pixel was applied to the nuclei masks, and the segmented nuclei were filtered by size, keeping those between 1 µm² and 750 µm². The cell area was segmented using a manual intensity threshold of 150 fluorescent intensity (A.U.) after a median filter (size 10 pixels) and a rolling-ball background subtraction (radius 150 pixels). For the watershed-based cell segmentation, cell centers were detected using a summed nuclei and cytoplasm channel: a Laplacian-of-Gaussian filter was applied with a sigma of 2 pixels, and peaks with a prominence of 40 fluorescent intensity (A.U.) were retained. Separated cells were then filtered by keeping cells above 10 µm² with a circularity above 0.3. For each cell, the cell area was further analyzed. Small cells were defined as those with an area below 1000 µm².
+
+References:
 
 - Schindelin, J., Arganda-Carreras, I., Frise, E. et al. Fiji: an open-source platform for biological-image analysis. Nat Methods 9, 676–682 (2012). https://doi.org/10.1038/nmeth.2019
 
@@ -172,12 +175,6 @@ Image analysis was performed using Fiji Is Just ImageJ (Fiji) ([Schindelin et al
 :::{tip} 
 
 Since OrgaMapper provides a settings file, this settings file can be shared in a data repository. 
-
-:::
-
-:::{note}
-
-Manual thresholds based on fluorescent intensity (A.U.) are image-data specific. Thus, they are not directly transferable to other data. 
 
 :::
 
