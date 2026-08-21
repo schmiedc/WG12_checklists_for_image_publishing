@@ -476,6 +476,26 @@ The individual channels then get merged into a composite image (i.e., all channe
 Composite image
 ```
 
+## Save result
+
+If you want to save the intermediate results, save them as TIFF, as this format preserves the image information and any additional layers:
+
+File > Save As > Tiff...
+
+:::{important}
+
+In general, when saving images, use formats that preserve the image information. Do not use file formats that use lossy compression (see example below):
+
+```{figure} ./image_ethics_resources/compression.png
+:alt: In
+:align: center
+:name: compression_visibility
+:width: 50%
+
+Effect of lossy compression due to JPEG compression: (Left) Unprocessed example. (Right) Copy saved as .jpg. 
+```
+:::
+
 ## Result and next unit
 
 Download a TIFF of the result image here: [composite.tif](./unit-1_resources/merge/composite.tif).
@@ -546,22 +566,3 @@ For the macro to work, the "multichannel_image.tif" image needs to be open under
 
 :::
 
-## Save result
-
-If you want to save the intermediate results, save them as TIFF, as this format preserves the image information and any additional layers:
-
-File > Save As > Tiff...
-
-:::{important}
-
-In general, when saving images, use formats that preserve the image information. Do not use file formats that use lossy compression (see example below):
-
-```{figure} ./image_ethics_resources/compression.png
-:alt: In
-:align: center
-:name: compression_visibility
-:width: 50%
-
-Effect of lossy compression due to JPEG compression: (Left) Unprocessed example. (Right) Copy saved as .jpg. 
-```
-:::

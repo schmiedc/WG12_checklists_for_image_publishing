@@ -260,7 +260,7 @@ Object > Fill and Stroke...
 
 For changing the color, select the Stroke tab. In the Fill and Stroke interface select the "Stroke Paint" tab.
 
-```{figure} ./unit-3_resources/annotations/inkscape_stroke_color.png
+```{figure} ./unit-3_resources/annotations/inkscape_stroke_color-1.png
 :alt: In
 :align: center
 :name: inkscape_stroke_color
@@ -289,7 +289,7 @@ Adjust the color of the ROI.
 After the color has been adjusted, modify the line width of the ROI. Select the Stroke style tab in the Fill and Stroke interface, then adjust the Width setting:
 
 
-```{figure} ./unit-3_resources/annotations/inkscape_stroke_width.png
+```{figure} ./unit-3_resources/annotations/inkscape_stroke_width-1.png
 :alt: In
 :align: center
 :name: inkscape_stroke_width
@@ -311,7 +311,13 @@ Consider adding annotations, such as cell type and treatment, to help the viewer
 Example of possible annotations in an image.
 ```
 
-You can download the result here: [figure_example.svg](./unit-3_resources/examples/figure_example.svg) (right-click and select "Save Link As...").
+## Export image figure
+
+
+>>> 300dpi
+
+You can download the result of the tutorial here: [figure_example.svg](./unit-3_resources/examples/figure_example.svg) (right-click and select "Save Link As...").
+
 
 ## Figure legends
 
@@ -393,3 +399,56 @@ As long as it is legally and technically feasible, the original images as well a
 ## Next unit
 
 In the final [Unit 4: Quantification](./unit-4_analysis.md), we will complete the course by performing a basic quantitative image analysis using an existing tool, documenting the software, tool versions, and analysis settings used, and identifying what needs to be shared (code, settings files, example data).
+
+## Bonus: Color and grayscale figure
+
+Providing the individual grayscale channels provides much better visualization of the image content. This is beneficial if you talk about structures in a specific channel for instance. Also the image information is much better to view in grayscale.  
+
+We therefore recommend if space permits to provide the indivdual gray scale images in the image figure. Alternatively, the grayscale images can be provided in supplementary figure. 
+
+>>> Result figure
+
+This bonus exercise will show an example of doing this. In Unit-1 I have asked you to create and save the grayscale color images. You can download the examples also here:
+
+>>> Download
+
+Now adjust the brightness contrast:
+
+Image > Adjust > Brightness/Contrast... (Ctrl + Shift + C; Mac: ⌘ + Shift + C)
+
+::::{grid} 4
+:gutter: 2
+
+:::{grid-item}
+```{figure} ./unit-1_resources/brightness_contrast/C1-multichannel_image_bc.png
+:width: 100%
+Channel 1: Min = 308; Max = 2484
+:::
+
+:::{grid-item}
+```{figure} ./unit-1_resources/brightness_contrast/C2-multichannel_image_bc.png
+:width: 100%
+Channel 2: Min = 84; Max = 2965
+:::
+
+:::{grid-item}
+```{figure} ./unit-1_resources/brightness_contrast/C3-multichannel_image_bc.png
+:width: 100%
+Channel 3: Min = 36; Max = 1270
+:::
+
+:::{grid-item}
+```{figure} ./unit-1_resources/brightness_contrast/C3-multichannel_image_bc.png
+:width: 100%
+Channel 3: Min = 36; Max = 1270
+:::
+
+::::
+
+Export the images as SVG and import them into Inkscape
+
+Plugins > BioVoxxel Figure Tools > Export all images as SVG
+
+>>> Inkscape figure
+
+I like to provide the merged color image with annotated colors for an overview, placed next to the grayscale single-channel images with their respective channel information annotated.
