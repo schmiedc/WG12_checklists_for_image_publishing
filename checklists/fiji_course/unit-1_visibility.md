@@ -332,13 +332,13 @@ In the figure processing we demonstrate how the full image information (i.e., fu
 
 ## Pitfalls of brightness/contrast adjustments
 
+The Brightness/Contrast setting is a powerful setting that can drastically alter the visualized information of the image. For demonstration purposes, here are a couple of examples of how the same content can be visualized. 
+
 :::{important}
 Do not cut off information in the lower intensities, e.g., removing structures close to the background to make the images prettier. 
 
 Avoid oversaturation of large parts of the image. You can see the effect of this very easily when different objects start to merge. 
 :::
-
-The Brightness/Contrast setting is a powerful setting that can drastically alter the visualized information of the image. For demonstration purposes, here are a couple of examples of how the same content can be visualized. 
 
 ::::{grid} 2
 :gutter: 2
