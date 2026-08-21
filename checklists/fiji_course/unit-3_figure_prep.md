@@ -421,13 +421,48 @@ Providing the individual grayscale channels provides much better visualization o
 
 We therefore recommend if space permits to provide the indivdual gray scale images in the image figure. Alternatively, the grayscale images can be provided in supplementary figure. 
 
->>> Result figure
+::::{grid} 4
+:gutter: 2
+
+:::{grid-item}
+```{figure} ./unit-1_resources/colors/C1-multichannel_image_grays.png
+:width: 100%
+Channel 1
+:::
+
+:::{grid-item}
+
+```{figure} ./unit-1_resources/colors/C2-multichannel_image_grays.png
+:width: 100%
+Channel 2
+:::
+
+:::{grid-item}
+
+```{figure} ./unit-1_resources/colors/C3-multichannel_image_grays.png
+:width: 100%
+Channel 3
+:::
+
+:::{grid-item}
+
+```{figure} ./unit-1_resources/colors/C4-multichannel_image_grays.png
+:width: 100%
+Channel 4
+:::
+
+::::
 
 This bonus exercise will show an example of doing this. In Unit-1 I have asked you to create and save the grayscale color images. You can download the examples also here:
 
->>> Download
+You can download the examples grayscale images here (right-click and select "Save Link As..."): 
+- [C1-multichannel_image_grays.tif](./unit-3_resources/examples/C1-multichannel_image_grays.tif)
+- [C2-multichannel_image_grays.tif](./unit-3_resources/examples/C2-multichannel_image_grays.tif)
+- [C3-multichannel_image_grays.tif](./unit-3_resources/examples/C3-multichannel_image_grays.tif)
+- [C4-multichannel_image_grays.tif](./unit-3_resources/examples/C4-multichannel_image_grays.tif)
 
-Now adjust the brightness contrast:
+For the figure we first adjust the brightness contrast:
+
 
 Image > Adjust > Brightness/Contrast... (Ctrl + Shift + C; Mac: ⌘ + Shift + C)
 
@@ -435,27 +470,27 @@ Image > Adjust > Brightness/Contrast... (Ctrl + Shift + C; Mac: ⌘ + Shift + C)
 :gutter: 2
 
 :::{grid-item}
-```{figure} ./unit-1_resources/brightness_contrast/C1-multichannel_image_bc.png
+```{figure} ./unit-3_resources/bonus_grayscale/C1-multichannel_image_grays.png
 :width: 100%
 Channel 1: Min = 308; Max = 2484
 :::
 
 :::{grid-item}
-```{figure} ./unit-1_resources/brightness_contrast/C2-multichannel_image_bc.png
+```{figure} ./unit-3_resources/bonus_grayscale/C2-multichannel_image_grays.png
 :width: 100%
 Channel 2: Min = 84; Max = 2965
 :::
 
 :::{grid-item}
-```{figure} ./unit-1_resources/brightness_contrast/C3-multichannel_image_bc.png
+```{figure} ./unit-3_resources/bonus_grayscale/C3-multichannel_image_grays.png
 :width: 100%
 Channel 3: Min = 36; Max = 1270
 :::
 
 :::{grid-item}
-```{figure} ./unit-1_resources/brightness_contrast/C3-multichannel_image_bc.png
+```{figure} ./unit-3_resources/bonus_grayscale/C4-multichannel_image_grays.png
 :width: 100%
-Channel 3: Min = 36; Max = 1270
+Channel 3: Min = 64; Max = 3195
 :::
 
 ::::
@@ -464,6 +499,53 @@ Export the images as SVG and import them into Inkscape
 
 Plugins > BioVoxxel Figure Tools > Export all images as SVG
 
->>> Inkscape figure
+Then load the images into Inkscape figure template. For a comparison we also add the merge image.
+
+```{figure} ./unit-3_resources/bonus_grayscale/result.png
+:alt: In
+:align: center
+:name: grayscale_image
+:width: 100%
+
+Merge multichannel image provided with grayscale single channel. (a) merge image. (b) Nucleus channel. (c) Actin channel. (d) Mitochondria channel. (e) ER channel. 
+```
 
 I like to provide the merged color image with annotated colors for an overview, placed next to the grayscale single-channel images with their respective channel information annotated.
+
+Let's have some final fun in Unit-3. Let's compare how well image content is viewable with different color LUTs, given the same brightness/contrast settings. I based this on a crop of channel 4, as here there is finer detail visible, with the reticular structures of the ER.
+
+
+::::{grid} 2
+:gutter: 1
+:margin: 0
+
+:::{grid-item}
+```{figure} ./unit-3_resources/bonus_grayscale/C4-multichannel_image_grays_crop.png
+:width: 100%
+Grayscale
+:::
+
+:::{grid-item}
+```{figure} ./unit-3_resources/bonus_grayscale/C4-multichannel_image_grays_crop-1.png
+:width: 100%
+Blue
+:::
+
+:::{grid-item}
+```{figure} ./unit-3_resources/bonus_grayscale/C4-multichannel_image_grays_crop-2.png
+:width: 100%
+Red
+:::
+
+:::{grid-item}
+```{figure} ./unit-3_resources/bonus_grayscale/C4-multichannel_image_grays_crop-3.png
+:width: 100%
+Green
+:::
+
+::::
+
+You can see now directly the effect of different LUTs on the visualization of the image data. Remember, this is the same image crop with the same brightness/contrast settings. The blue channel gives the worst visualization as almost none of the detail is visible. This is closely followed by red. Green is better, though some details are still harder to see than in the grayscale version.
+
+
+
