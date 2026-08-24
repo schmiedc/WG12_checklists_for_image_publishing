@@ -41,11 +41,12 @@ It's also important that the image used for visualization is of sufficient quali
 
 We have also collected material concerning correct image acquisition here: {ref}`further-material-acquisition`.
 
-Another aspect that we should also consider at this stage is the choice of images. Typically, an image dataset is acquired instead of just a single image, and the chosen image shapes how the reader perceives the result — picking an unusually striking or atypical example (an "edge of distribution" image) misrepresents the data and overstates the science. Acceptable methods to choose an image for a figure could be:
-- Representative image
-- Random selection
-- Based on analysis (middle of distribution)
-- Show multiple examples of the range of phenotypes
+## Before creating an image figure
+
+
+
+
+
 
 ## Load example images
 

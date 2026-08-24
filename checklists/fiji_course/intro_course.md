@@ -1,7 +1,7 @@
 (tutorials)=
 # Introduction to course
 
-This course shows in practice how to create a scientific image figure. It deliberately focuses on only the most critical items that affect whether a figure is legible and truthful. The condensed checklist below shows the covered items. 
+This course shows in practice how to create a scientific image figure. It focuses on only the most critical items that affect whether a figure is legible and truthful. The condensed checklist below shows the covered items. 
 
 For the complete set of recommendations, see the full set of [checklists](https://doi.org/10.1038/s41592-023-01987-9). 
 
@@ -17,15 +17,19 @@ Condensed checklist.
 
 This course is for anyone who wants to process scientific images for visualization in image figures (e.g., scientific articles, posters, presentations).
 
-This course assumes no prior knowledge of image processing. It uses the freely accessible, open-source tools [Fiji](https://fiji.sc/) and [Inkscape](https://inkscape.org/).
-
-This is a hands-on course providing examples that students can implement themselves. The principles and instructions can also be applied to your own images.
-
 :::{note}
 
 The content is created with microscopy images, specifically light microscopy in mind. The core principles are applicable to other scientific image domains. 
 
 :::
+
+This is a hands-on course providing examples that students can implement themselves. The principles and instructions can be applied to your own images.
+
+- Unit-1 to Unit-3 focus on image visualization. They assumes no prior knowledge of image processing. 
+- Unit-4 focuses on documentation of image analysis. Basic image processing and analysis knowledge is beneficial. 
+
+It uses the freely accessible, open-source tools [Fiji](https://fiji.sc/) and [Inkscape](https://inkscape.org/).
+
 
 ## Course learning objectives
 
