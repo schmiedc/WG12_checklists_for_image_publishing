@@ -15,7 +15,7 @@ Condensed checklist.
 
 ## Who this course is for
 
-This course is for anyone who wants to process scientific images for visualization in image figures (e.g., scientific articles, posters, presentations).
+This course is for anyone who wants to process scientific images for visualization in scientific articles, posters or presentations. We assume that you are at a point where you have a suitable image for visualization available. We will not cover image acquisition questions.
 
 :::{note}
 
@@ -23,17 +23,18 @@ The content is created with microscopy images, specifically light microscopy in 
 
 :::
 
-This is a hands-on course providing examples that students can implement themselves. The principles and instructions can be applied to your own images.
-
-- Unit-1 to Unit-3 focus on image visualization. They assumes no prior knowledge of image processing. 
+Course prerequisites:
+- Unit-1 to Unit-3 focus on image visualization. They assume no prior knowledge of image processing. 
 - Unit-4 focuses on documentation of image analysis. Basic image processing and analysis knowledge is beneficial. 
+
+This is a hands-on course providing examples that students can implement themselves. The principles and instructions can be applied to your own images.
 
 It uses the freely accessible, open-source tools [Fiji](https://fiji.sc/) and [Inkscape](https://inkscape.org/).
 
 
 ## Course learning objectives
 
-The overall course objective is to walk through creating one complete image figure from raw data, including the figure legend and the methods used to create and process the images.
+The overall course objective is to walk through creating one complete image figure from raw data, including the figure legend and the methods used to create, process and analyze the images.
 
 After the course, the learner will be able to produce an image figure from an original microscopy image that truthfully and effectively reports the scientific result that the figure represents (see below).
 
