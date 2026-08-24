@@ -45,6 +45,8 @@ We have also collected material concerning correct image acquisition here: {ref}
 
 The image figure should visualize a specific scientific result. For our course example we have U-2 OS cells treated with a negative control, DMSO, and the treatment Nocodazole. The treatment results in the appearance of small rounded cells (see below). 
 
+We have also quantified this using an area threshold of 1000 µm² and found 0% small rounded cells in the negative control and 79% small rounded cells in the treated cells. We want to create an image figure to visualize this. 
+
 ::::{grid} 2
 :gutter: 1
 
@@ -63,13 +65,26 @@ Nocodazole treated U-2 OS cells.
 
 ::::
 
-We have also quantified this using an area threshold of 1000 µm² and found 0% small rounded cells in the negative control and 79% small rounded cells in the treated cells. We want to create an image figure to visualize this. 
-
 ```{admonition}  Think about it
 
 What are the critical aspects that we need to show to visualize these results? 
 
 ```
+
+For this example we want to show the overview images to give the viewer an idea about the difference in the treatments. We also will show crops of cells to better visualize the overall difference in morphology. 
+
+The acquired images have four channels for the major cellular compartments (Nucleus, Mitochondria, Cytoskeleton and ER). The image figure focuses the overall morphology and not the different cellular compartment thus we will only visualize three channels. See final result below: 
+
+```{figure} ./unit-3_resources/annotations/annotated_panel.png
+:alt: In
+:align: center
+:name: final result
+:width: 100%
+
+Final result of course example.
+```
+
+## Selecting images for visualization
 
 Another aspect that we should also consider at this stage is the choice of images. Typically, an image dataset is acquired instead of just a single image, and the chosen image shapes how the reader perceives the result — picking an unusually striking or atypical example (an "edge of distribution" image) misrepresents the data and overstates the science. Acceptable methods to choose an image for a figure could be:
 - Representative image
