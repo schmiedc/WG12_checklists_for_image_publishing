@@ -68,6 +68,25 @@ Total time for the course is about 1–2 hours. Each teaching unit is self-conta
 
 For more content on image processing ethics and image interpolation, see: [Further information](./intro_background.md).   
 
+```{admonition} License and how to cite this course
+:class: tip
+
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+Unless otherwise noted, the content of this course (text, images, figures and videos)
+is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+You are free to share and adapt it, including for teaching, as long as you give appropriate credit.
+
+**Suggested attribution:**
+
+> "How to publish images" by QUAREP-LiMi WG12,
+> <https://quarep-limi.github.io/WG12_checklists_for_image_publishing/>, CC BY 4.0
+
+Third-party material is excluded and keeps its original license, as noted in its caption.
+Source code in the [GitHub repository](https://github.com/QUAREP-LiMi/WG12_checklists_for_image_publishing)
+is licensed under BSD 3-Clause.
+```
+
 ## Materials
 
 For this tutorial you are going to need: 
