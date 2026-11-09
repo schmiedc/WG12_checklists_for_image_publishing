@@ -35,7 +35,7 @@ Additionally, scientific images capture real world objects that have a physical 
 
 We start with the result of [Unit 1: Visibility](./unit-1_visibility.md), the composite image with adjusted colors, brightness, and contrast. You can download the image here: [composite.tif](./unit-1_resources/merge/composite.tif).
 
-:::{div} caption-text
+:::{div} figure-legend
 Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
 :::
 
@@ -225,7 +225,7 @@ Analyze > Tools > Scale Bar...
 
 Scale bar added to the overview as an overlay.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
 ```
 
 :::{important} 
@@ -268,6 +268,11 @@ However, we recommend creating such annotations in a dedicated vector graphics p
 ## Result and next unit
 
 You can download the result of [Unit 2: Format and annotations](./unit-2_format.md) here: [composite_scale.tif](./unit-2_resources/unit-2_examples/composite_scale.tif) and [composite_crop_scale.tif](./unit-2_resources/unit-2_examples/composite_crop_scale.tif). 
+
+
+:::{div} figure-legend
+Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+:::
 
 The result images will be used in [Unit 3: Figure and availability](./unit-3_figure_prep.md), where we will create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions, and make the underlying image data available in a public repository.
 

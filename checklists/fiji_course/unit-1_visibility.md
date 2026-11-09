@@ -77,7 +77,7 @@ Nocodazole treated U-2 OS cells.
 
 ::::
 
-:::{div} caption-text
+:::{div} figure-legend
 Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
 :::
 
@@ -117,7 +117,7 @@ For instance picking an unusually striking or atypical example (an "edge of dist
 
 This tutorial starts with a multi-channel image ({numref}`multichannel_image`). Download a TIFF of the example image here: [multichannel_image.tif](./unit-1_resources/unit-1_examples/multichannel_image.tif).
 
-:::{div} caption-text
+:::{div} figure-legend
 Image: Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445).
 :::
 
@@ -190,7 +190,7 @@ Channel 4
 :::
 ::::
 
-:::{div} caption-text
+:::{div} figure-legend
 Images: Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445).
 :::
 
@@ -292,7 +292,7 @@ Channel 3
 
 ::::
 
-:::{div} caption-text
+:::{div} figure-legend
 Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs). Modified version licensed under CC BY 4.0. 
 :::
 
@@ -367,7 +367,7 @@ Channel 4
 
 ::::
 
-:::{div} caption-text
+:::{div} figure-legend
 Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs). Modified version licensed under CC BY 4.0. 
 :::
 
@@ -404,7 +404,7 @@ Channel 3
 
 ::::
 
-:::{div} caption-text
+:::{div} figure-legend
 Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs). Modified version licensed under CC BY 4.0. 
 :::
 
@@ -479,7 +479,7 @@ Background cut too much: Note loss of lower intensity information.
 
 ::::
 
-:::{div} caption-text
+:::{div} figure-legend
 Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
 :::
 
@@ -510,7 +510,7 @@ Channel 3: Min = 36; Max = 1270
 
 ::::
 
-:::{div} caption-text
+:::{div} figure-legend
 Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
 :::
 
