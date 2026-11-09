@@ -70,7 +70,9 @@ Why should you care about that? See below how different numbers of gray values i
 :name: bit_depth
 :width: 100%
 
-Visualization of different intensity sampling on a Fiji sample image. (a) Two gray values are available. (b) Four gray values. (c) Sixteen gray values. (d) 256 gray values.
+Visualization of different intensity sampling on a Fiji sample image. (a) 1-bit: Two gray values are available. (b) 2-bit: Four gray values. (c) 4-bit: Sixteen gray values. (d) 8-bit: 256 gray values. Notice the clear stepping artefacts, particularly visible in the background (a–c), which are not perceivable at 8-bit.
+
+Image: Mathias Appel, [Siberian tiger](https://commons.wikimedia.org/wiki/File:Siberian_Tiger_-_53009149078.jpg), CC0 1.0. Wikimedia commons. Cropped, adjusted brightness/contrast and reduced to 1–8 bit for illustration.
 ```
 
 ```{admonition} Think about it
