@@ -35,6 +35,10 @@ Additionally, scientific images capture real world objects that have a physical 
 
 We start with the result of [Unit 1: Visibility](./unit-1_visibility.md), the composite image with adjusted colors, brightness, and contrast. You can download the image here: [composite.tif](./unit-1_resources/merge/composite.tif).
 
+:::{div} caption-text
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
+:::
+
 If you came directly from Unit 1, you can also use your own processed composite.tif as the starting point for this unit.
 
 Open Fiji.
@@ -50,6 +54,8 @@ File > Open... (or drag and drop image into Fiji task bar)
 :width: 100%
 
 Composite image.
+
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
 ```
 The image shows a field of view of many cells. It gives the viewer a good overview and might be an appropriate figure panel if the number of cells, cell density, or the overall look of the cellular neighborhood is the actual result. However, if the result is, for instance, the size or distribution of a specific cellular compartment (e.g., Mitochondria in the magenta channel), this overview alone will be insufficient. 
 
@@ -91,6 +97,8 @@ Draw a region of interest (ROI) by selecting a ROI tool in the Fiji task bar, fo
 :width: 100%
 
 Rectangle ROI drawn on image.
+
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotation). Modified version licensed under CC BY 4.0. 
 ```
 
 You can save the exact ROI on the image as a non-destructive overlay to easily label the origin of the crop. First, we need to add the ROI to the overlay:
@@ -123,6 +131,8 @@ Image > Crop... (Ctrl + Shift + X; Mac: ⌘ + Shift + X)
 :width: 25%
 
 Cropped image.
+
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped). Modified version licensed under CC BY 4.0. 
 ```
 
 To create a crop, one can also use the duplicate command: 
@@ -136,6 +146,8 @@ Image > Duplicate (Ctrl + Shift + D)
 :width: 75%
 
 Cropping via duplication of the content of the ROI.
+
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped). Modified version licensed under CC BY 4.0. 
 ```
 
 ### Rotate
@@ -157,6 +169,8 @@ Rotation by multiples of 90 degrees in Fiji (or other software manipulating imag
 :width: 100%
 
 Interpolation and rotation. (Left) 10 x 10 px original. (Middle) 90-degree rotation. (Right) 45-degree rotation bilinear interpolation.
+
+Image: Christopher Schmied, CC BY 4.0.
 ```
 
 Interpolation is needed since in Fiji, images are processed as Raster graphics (grid of pixels). The effect of raster graphics, image transformation, and interpolation is also discussed here: [Raster graphics and interpolation](./interpolation.md) 
@@ -174,6 +188,8 @@ We now have the overview image as well as the crop that shows the details of one
 :width: 100%
 
 Overview and crop show different scale.
+
+Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0. 
 ```
 
 We need to communicate the scale information as well as other important information (e.g., color) to the viewer such that the image becomes interpretable. 
@@ -193,6 +209,8 @@ Analyze > Set Scale...
 :width: 100%
 
 Verify and set the correct pixel size before creating scale bars.
+
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
 ```
 
 After the correct pixel size has been verified, the scale bar can be created in Fiji via:
@@ -205,7 +223,9 @@ Analyze > Tools > Scale Bar...
 :name: scale_bar2
 :width: 100%
 
-Scale bar added to the overview as an overlay. 
+Scale bar added to the overview as an overlay.
+
+Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
 ```
 
 :::{important} 
@@ -223,6 +243,8 @@ The width of the scale bar should relate to the actual size of the shown objects
 :width: 100%
 
 The width of the scale bar should be in relation to the shown object.
+
+Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
 ```
 
 :::{note}
@@ -280,6 +302,8 @@ Image > Overlay > To ROI Manager
 :width: 75%
 
 Overlay in ROI Manager.
+
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
 ```
 
 The ROIs can then be saved as an independent file:
@@ -303,6 +327,8 @@ Alternatively, pressing "t" on the keyboard will also open the ROI Manager and a
 :width: 75%
 
 ROI Manager window.
+
+Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
 ```
 
 ## Save result
@@ -322,6 +348,8 @@ In general, when saving images, use formats that preserve the image information.
 :width: 50%
 
 Effect of lossy compression due to JPEG compression: (Left) Unprocessed example. (Right) Copy saved as .jpg. 
+
+Image: Christopher Schmied, CC BY 4.0.
 ```
 :::
 

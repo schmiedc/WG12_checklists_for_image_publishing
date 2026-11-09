@@ -44,3 +44,8 @@ img {
 .bd-content .bd-article-container {
     max-width: 920px;
 }
+
+.caption-text {
+    font-size: 1.0em;
+    color: var(--pst-color-text-muted);
+}

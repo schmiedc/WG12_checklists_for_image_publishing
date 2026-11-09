@@ -16,6 +16,8 @@ After the course, the learner will be able to produce an image figure from an or
 :width: 100%
 
 Example of an image figure with key annotations provided, such as a scale bar and content including the shown image colors. An enlarged crop is shown next to the overview to focus the viewer on a key result. The origin of the crop is annotated in the overview. Additional annotations, such as white arrowheads, are used to further guide the viewer.
+
+Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted brightness/contrast, LUTs, cropped, added annotations). Modified version licensed under CC BY 4.0. 
 ```
 
 ##  Scope of course
@@ -30,6 +32,9 @@ For the complete set of recommendations, see the full set of [checklists](https:
 :name: figure-checklist
 
 Condensed checklist. 
+
+Image: QUAREP-LiMi WG 12, CC BY 4.0.
+
 ```
 
 ## Who this course is for
