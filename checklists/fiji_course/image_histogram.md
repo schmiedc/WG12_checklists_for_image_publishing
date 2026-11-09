@@ -78,7 +78,7 @@ Image: Mathias Appel, [Siberian tiger](https://commons.wikimedia.org/wiki/File:S
 ```{admonition} Think about it
 :class: tip
 
-The 1-bit image looks bad, and the face is very hard to recognize. The 2-bit image is better, and the 4-bit image is already quite good, but there are still clear stepping artifacts. The 8-bit image and the gradient below appear continuous.
+The 1-bit image looks bad, and the tigeris very hard to recognize. The 2-bit image is better, and the 4-bit image is already quite good, but there are still clear stepping artifacts. The 8-bit image and the gradient below appear continuous.
 
 Would 8-bit therefore be sufficient in terms of gray values for all applications? Can you think of cases when this would be sufficient, and when it would be a problem?
 
