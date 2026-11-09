@@ -9,7 +9,7 @@ width: 500px
 name: color_illusion
 ---
 
-Color context illusion.
+Color context illusion. GIF: Christopher Schmied, CC BY 4.0.
 ```
 
 The first illusion demonstrates that color perception depends on context. There are three colored circles in this image, all of which have the same color. However, their appearance differs depending on the background color: on the yellow background the circle appears light green, and on the green background it appears light yellow.
@@ -24,5 +24,5 @@ width: 500px
 name: intensity_illusion
 ---
 
-Intensity context illusion.
+Intensity context illusion. GIF: Christopher Schmied, CC BY 4.0.
 ```

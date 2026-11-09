@@ -73,18 +73,20 @@ For more content on image processing ethics and image interpolation, see: [Furth
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Unless otherwise noted, the content of this course (text, images, figures and videos)
-is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-You are free to share and adapt it, including for teaching, as long as you give appropriate credit.
+Unless otherwise noted, all text, images, figures, videos and other media in this
+repository (in particular the contents of `fiji_course/`) are licensed under the
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC BY 4.0). 
 
-**Suggested attribution:**
+Suggested attribution:
+"How to publish images" by QUAREP-LiMi WG12,
+https://quarep-limi.github.io/WG12_checklists_for_image_publishing/
+(source: https://github.com/QUAREP-LiMi/WG12_checklists_for_image_publishing), CC BY 4.0
 
-> "How to publish images" by QUAREP-LiMi WG12,
-> <https://quarep-limi.github.io/WG12_checklists_for_image_publishing/>, CC BY 4.0
+Third-party material (e.g. images reused from publications) is excluded and remains
+under its original license, as indicated in its caption.
 
-Third-party material is excluded and keeps its original license, as noted in its caption.
-Source code in the [GitHub repository](https://github.com/QUAREP-LiMi/WG12_checklists_for_image_publishing)
-is licensed under BSD 3-Clause.
+Source code (e.g. Python, JavaScript, configuration and build files) is licensed
+under the BSD 3-Clause License, see LICENSE.
 ```
 
 ## Materials
