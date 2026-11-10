@@ -26,3 +26,25 @@ name: intensity_illusion
 
 Intensity context illusion. GIF: Christopher Schmied, CC BY 4.0.
 ```
+
+One might argue that these examples are a bit artificial and with real biological images the effect would be different. However we think this is not the case. The following two GIFs redo the QUAREP-LiMi WG12 visual illusions (Color.gif, Intensity.gif) with a real nucleus on real tissue.
+
+```{figure} ./visual_illusions_resources/Color_bio.gif
+---
+width: 500px
+name: color_bio_illusion
+---
+
+Color context illusion. GIF: Original image orion multiplex demo courtesy Sara McArdle & Zbigniew Mikulski (Sara and Z) modified by Mike Nelson, CC BY 4.0.
+```
+
+The second intensity based illusion is particularily important as uneven illumination is very common in microscopy. 
+
+```{figure} ./visual_illusions_resources/Intensity_bio.gif
+---
+width: 500px
+name: intensity_bio_illusion
+---
+
+Intensity context illusion. GIF: Original image orion multiplex demo courtesy Sara McArdle & Zbigniew Mikulski (Sara and Z) modified by Mike Nelson, CC BY 4.0.
+```

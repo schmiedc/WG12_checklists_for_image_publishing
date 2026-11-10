@@ -65,6 +65,8 @@ Typically, we want to present other image panels too, for instance, compare wild
 :width: 100%
 
 Processed overview and crop for treatment panel of an image figure.
+
+Images: Adapted from Christopher Wolff (CC0), from https://doi.org/10.1016/j.isci.2025.112445. Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
 ```
 
 :::{note}
