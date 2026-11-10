@@ -93,7 +93,7 @@ Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12
 
 Overview and crop shown side by side.
 
-Images: Helena Jambor (CC BY 4.0). 
+Images: Helena Jambor, CC BY 4.0. 
 ```
 
 - Cropping is acceptable for visualization.
