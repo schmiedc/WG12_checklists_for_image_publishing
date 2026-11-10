@@ -83,9 +83,7 @@ repository (in particular the contents of `fiji_course/`) are licensed under the
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC BY 4.0). 
 
 Suggested attribution:
-"How to publish images" by QUAREP-LiMi WG12,
-[https://quarep-limi.github.io/WG12_checklists_for_image_publishing/]
-(https://github.com/QUAREP-LiMi/WG12_checklists_for_image_publishing), CC BY 4.0
+"How to publish images" by QUAREP-LiMi WG12, [https://quarep-limi.github.io/WG12_checklists_for_image_publishing/](https://quarep-limi.github.io/WG12_checklists_for_image_publishing/), CC BY 4.0
 
 Third-party material (e.g. images reused from publications) is excluded and remains
 under its original license, as indicated in its caption.
