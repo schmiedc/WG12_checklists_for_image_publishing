@@ -40,7 +40,7 @@ Image processing is an essential step in preparing microscopy data for publicati
 This is the same image processed with different settings in the Lysosome channel. Left, fewer Lysosomes are visible and they are only close to the Nucleus compared to right. 
 
 
-Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12915-024-02015-8](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied (cropped, adjusted brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Michael Ebner (CC BY 4.0) from [Schmied et al. 2024. BMC Biology](https://doi.org/10.1186/s12915-024-02015-8). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 This section introduces guiding principles for ethical image processing. It draws on the seminal work of [Douglas W. Cromey](https://medicine.arizona.edu/person/douglas-w-cromey-ms), whose contributions have helped define best practices in the responsible handling of scientific images:
@@ -59,7 +59,7 @@ This section introduces guiding principles for ethical image processing. It draw
 
 Process copy of image: (Left) Original image. (Right) Image processing performed on copy.
 
-Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12915-024-02015-8](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied (cropped, adjusted brightness/contrast, Gaussian filter). Modified version licensed under CC BY 4.0.
+Original image(s): Michael Ebner (CC BY 4.0) from [Schmied et al. 2024. BMC Biology](https://doi.org/10.1186/s12915-024-02015-8). Brightness/contrast adjusted, median filter applied. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 - Keep unprocessed image data file.
@@ -77,7 +77,7 @@ Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12
 
 Image processing: Linear adjustments such as adjustment of brightness contrast on the entire image.
 
-Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12915-024-02015-8](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0.
+Original image(s): Michael Ebner (CC BY 4.0) from [Schmied et al. 2024. BMC Biology](https://doi.org/10.1186/s12915-024-02015-8). Brightness/contrast adjusted. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 - Linear adjustments on the entire image are fine, e.g., brightness and contrast.
@@ -93,7 +93,7 @@ Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12
 
 Overview and crop shown side by side.
 
-Images: Helena Jambor, CC BY 4.0. 
+Original image and figure: Helena Jambor, CC BY 4.0. 
 ```
 
 - Cropping is acceptable for visualization.
@@ -112,7 +112,7 @@ Images: Helena Jambor, CC BY 4.0.
 
 The same image processed with different settings produces different visual results.
 
-Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12915-024-02015-8](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied (cropped, adjusted brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Michael Ebner (CC BY 4.0) from [Schmied et al. 2024. BMC Biology](https://doi.org/10.1186/s12915-024-02015-8). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 - Acquire images under identical conditions.
@@ -129,7 +129,7 @@ Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12
 
 Filters and extreme brightness contrast adjustments drastically alter images and remove information: (Left) original with acceptable brightness contrast adjustments. (Right) Median filter with Sigma 1 and drastic brightness contrast adjustments that crop low intensities.
 
-Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12915-024-02015-8](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied (cropped, adjusted brightness/contrast, median filter). Modified version licensed under CC BY 4.0.
+Original image(s): Michael Ebner (CC BY 4.0) from [Schmied et al. 2024. BMC Biology](https://doi.org/10.1186/s12915-024-02015-8). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 - Filters to beautify images are usually not recommended.
@@ -152,7 +152,7 @@ Manipulations applied to only one area of an image, and not to others, are quest
 
 A median filter was applied to part of an image to demonstrate highly questionable manipulation.
 
-Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12915-024-02015-8](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied (cropped, adjusted brightness/contrast, median filter to part of image to demonstrate questionable manipulation). Modified version licensed under CC BY 4.0.
+Original image(s): Michael Ebner (CC BY 4.0) from [Schmied et al. 2024. BMC Biology](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied cropped, adjusted brightness/contrast, median filter applied incorrectly to part of image to demonstrate questionable manipulation.
 ```
 
 ## Cloning and Copying Parts of an Image into Another is Really Bad
@@ -171,7 +171,7 @@ Cloning or copying objects from other parts of an image or from a different imag
 
 Multiple image duplications from a part of an image to a different part to demonstrate highly questionable manipulation.
 
-Images: Adapted from Michael Ebner (CC BY 4.0) from [https://doi.org/10.1186/s12915-024-02015-8](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied (cropped, adjusted brightness/contrast, duplicated to demonstrate questionable manipulation). Modified version licensed under CC BY 4.0.
+Original image(s): Michael Ebner (CC BY 4.0) from [Schmied et al. 2024. BMC Biology](https://doi.org/10.1186/s12915-024-02015-8). Modified by Christopher Schmied cropped, adjusted brightness/contrast, duplicated to demonstrate questionable manipulation. 
 ```
 
 Improper image duplication is a big issue in the scientific literature:
@@ -218,7 +218,7 @@ Image: Christopher Schmied, CC BY 4.0.
 
 Nocodazole induces cell death in U2-OS cells: (a) U2-OS cells treated with DMSO only. (b) Cropped image of a single cell treated with DMSO. (c) U2-OS cells treated with Nocodazole at a 5 µM concentration show increased cell death. Note the many small round cells (White Arrowheads). (d) Cropped image of a dead or dying cell. Scale bar represents 100 µm (a) and 20 µm (b).  
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 - Imaged objects have real world dimension. 

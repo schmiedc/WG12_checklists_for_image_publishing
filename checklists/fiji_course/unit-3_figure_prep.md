@@ -47,13 +47,13 @@ In [Unit 1: Visibility](./unit-1_visibility.md) and [Unit 2: Format and annotati
 
 Processed overview and crop for one panel of an image figure.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 You can download the result of [Unit 2: Format and annotations](./unit-2_format.md) here: [composite_scale.tif](./unit-2_resources/unit-2_examples/composite_scale.tif) and [composite_crop_scale.tif](./unit-2_resources/unit-2_examples/composite_crop_scale.tif).
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. 
 :::
 
 Typically, we want to present other image panels too, for instance, compare wild type versus a treatment. In this case, the first image is of U2-OS cells treated with DMSO as a control. In our example figure, we now want to compare U2-OS cells treated with Nocodazole acquired with the same settings.
@@ -66,7 +66,7 @@ Typically, we want to present other image panels too, for instance, compare wild
 
 Processed overview and crop for treatment panel of an image figure.
 
-Images: Adapted from Christopher Wolff (CC0), from https://doi.org/10.1016/j.isci.2025.112445. Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 :::{note}
@@ -78,7 +78,7 @@ You can already see one of the challenges with annotations in processed images. 
 You can download the original image for the treatment here: [multichannel_image_treat.tif](./unit-3_resources/examples/multichannel_image_treat.tif). Then perform the processing described in [Unit 1: Visibility](./unit-1_visibility.md) and [Unit 2: Format and annotations](./unit-2_format.md).
 
 :::{div} figure-legend
-Images: Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445).
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445).
 :::
 
 :::{important}
@@ -90,7 +90,7 @@ For an accurate qualitative comparison, the images need to be processed with the
 You can download the result here: [composite_treat_scale.tif](./unit-3_resources/examples/composite_treat_scale.tif) and [composite_treat_crop_scale.tif](./unit-3_resources/examples/composite_treat_crop_scale.tif).
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. 
 :::
 
 ## BioVoxxel Figure Tools
@@ -151,7 +151,7 @@ You can download the examples here (right-click and select "Save Link As..."):
 - [04_composite_treat_scale.svg](./unit-3_resources/examples/04_composite_treat_scale.svg)
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. 
 :::
 
 ## Figures in Inkscape
@@ -204,7 +204,7 @@ The first step is to resize the image to fit the image figure. When resizing, ma
 
 Resize image panel to fit the figure. Note the lock on the aspect ratio, used to resize the image uniformly.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ## Modify scale bar
@@ -221,7 +221,7 @@ Layer > Layers and Objects...
 
 Layers and objects allow for selecting the different annotations.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 :::{important}
@@ -263,7 +263,7 @@ Scale bars can be presented in different forms and location. Make sure that they
 
 Different examples of annotated scale.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 :::{tip}
 
@@ -288,7 +288,7 @@ Also, the location of the inset or an enlarged crop should be marked in the over
 
 The ROI when added as an overlay can also be exported in the SVG and imported in inkscape. You can then modify the color and thickness of the ROI.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 The appearance of the ROI can then be modified via:
@@ -322,7 +322,7 @@ Choose the color of the annotation such that there is good contrast with the ima
 
 Adjust the color of the ROI.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 After the color has been adjusted, modify the line width of the ROI. Select the Stroke style tab in the Fill and Stroke interface, then adjust the Width setting:
@@ -336,7 +336,7 @@ After the color has been adjusted, modify the line width of the ROI. Select the 
 
 Adjust the width of the ROI lines so that the ROI is clearly visible.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ## Additional annotations
@@ -351,7 +351,7 @@ Consider adding annotations, such as cell type and treatment, to help the viewer
 
 Example of possible annotations in an image.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 
@@ -373,7 +373,7 @@ Finally define the location for saving and a export format. We recommend PDF (*.
 
 Example of possible annotations in an image.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, copped added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 You can download the intermediate result of the tutorial here: [figure_example.svg](./unit-3_resources/examples/figure_example.svg) (right-click and select "Save Link As...").
@@ -393,7 +393,7 @@ See below a proposal for an image figure legend:
 
 Nocodazole treatment results in the appearance of small rounded cells in U2-OS cells: (a) U2-OS cells treated with DMSO only. (b) Cropped image of a single cell treated with DMSO. (c) U2-OS cells treated with Nocodazole at a 5 µM concentration over 24 h show appearance of small rounded cells (White Arrowheads). (d) Cropped image of a small rounded cell. Scale bar represents 100 µm (a) and 20 µm (b). 
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, copped added annotation). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 :::{important} 
@@ -515,7 +515,7 @@ Channel 4
 ::::
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted.
 :::
 
 
@@ -562,7 +562,7 @@ Channel 3: Min = 64; Max = 3195
 ::::
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted.
 :::
 
 Export the images as SVG and import them into Inkscape
@@ -579,7 +579,7 @@ Then load the images into Inkscape figure template. For a comparison we also add
 
 Merge multichannel image provided with grayscale single channel. (a) merge image. (b) Nucleus channel. (c) Actin channel. (d) Mitochondria channel. (e) ER channel. 
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 I like to provide the merged color image with annotated colors for an overview, placed next to the grayscale single-channel images with their respective channel information annotated.

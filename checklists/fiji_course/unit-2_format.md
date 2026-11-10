@@ -36,7 +36,7 @@ Additionally, scientific images capture real world objects that have a physical 
 We start with the result of [Unit 1: Visibility](./unit-1_visibility.md), the composite image with adjusted colors, brightness, and contrast. You can download the image here: [composite.tif](./unit-1_resources/merge/composite.tif).
 
 :::{div} figure-legend
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped.
 :::
 
 If you came directly from Unit 1, you can also use your own processed composite.tif as the starting point for this unit.
@@ -55,7 +55,7 @@ File > Open... (or drag and drop image into Fiji task bar)
 
 Composite image.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted.
 ```
 The image shows a field of view of many cells. It gives the viewer a good overview and might be an appropriate figure panel if the number of cells, cell density, or the overall look of the cellular neighborhood is the actual result. However, if the result is, for instance, the size or distribution of a specific cellular compartment (e.g., Mitochondria in the magenta channel), this overview alone will be insufficient. 
 
@@ -98,7 +98,7 @@ Draw a region of interest (ROI) by selecting a ROI tool in the Fiji task bar, fo
 
 Rectangle ROI drawn on image.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotation). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 You can save the exact ROI on the image as a non-destructive overlay to easily label the origin of the crop. First, we need to add the ROI to the overlay:
@@ -132,7 +132,7 @@ Image > Crop... (Ctrl + Shift + X; Mac: ⌘ + Shift + X)
 
 Cropped image.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped.
 ```
 
 To create a crop, one can also use the duplicate command: 
@@ -147,7 +147,7 @@ Image > Duplicate (Ctrl + Shift + D)
 
 Cropping via duplication of the content of the ROI.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ### Rotate
@@ -189,7 +189,7 @@ We now have the overview image as well as the crop that shows the details of one
 
 Overview and crop show different scale.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 We need to communicate the scale information as well as other important information (e.g., color) to the viewer such that the image becomes interpretable. 
@@ -210,7 +210,7 @@ Analyze > Set Scale...
 
 Verify and set the correct pixel size before creating scale bars.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 After the correct pixel size has been verified, the scale bar can be created in Fiji via:
@@ -225,7 +225,7 @@ Analyze > Tools > Scale Bar...
 
 Scale bar added to the overview as an overlay.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 :::{important} 
@@ -244,7 +244,7 @@ The width of the scale bar should relate to the actual size of the shown objects
 
 The width of the scale bar should be in relation to the shown object.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 :::{note}
@@ -271,7 +271,7 @@ You can download the result of [Unit 2: Format and annotations](./unit-2_format.
 
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, cropped, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated.
 :::
 
 The result images will be used in [Unit 3: Figure and availability](./unit-3_figure_prep.md), where we will create a complete scientific image figure using vector graphics software, adding legible annotations, figure legends, and method descriptions, and make the underlying image data available in a public repository.
@@ -308,7 +308,7 @@ Image > Overlay > To ROI Manager
 
 Overlay in ROI Manager.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 The ROIs can then be saved as an independent file:
@@ -333,7 +333,7 @@ Alternatively, pressing "t" on the keyboard will also open the ROI Manager and a
 
 ROI Manager window.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotations). Modified version licensed under CC BY 4.0.
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ## Save result

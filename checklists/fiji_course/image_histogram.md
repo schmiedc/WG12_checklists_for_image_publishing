@@ -72,7 +72,7 @@ Why should you care about that? See below how different numbers of gray values i
 
 Visualization of different intensity sampling on a Fiji sample image. (a) 1-bit: Two gray values are available. (b) 2-bit: Four gray values. (c) 4-bit: Sixteen gray values. (d) 8-bit: 256 gray values. Notice the clear stepping artefacts, particularly visible in the background (a–c), which are not perceivable at 8-bit.
 
-Image: Mathias Appel, [Siberian tiger](https://commons.wikimedia.org/wiki/File:Siberian_Tiger_-_53009149078.jpg), CC0 1.0. Wikimedia commons. Cropped, adjusted brightness/contrast and reduced to 1–8 bit for illustration.
+Original image(s): Mathias Appel, [Siberian tiger](https://commons.wikimedia.org/wiki/File:Siberian_Tiger_-_53009149078.jpg), CC0 1.0. Wikimedia commons. Cropped, adjusted brightness/contrast and reduced to 1–8 bit for illustration. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ```{admonition} Think about it
@@ -101,7 +101,7 @@ We can check these artifacts using the image itself, but often they are not easi
 
 Images demonstrating different intensity sampling problems. (a) The starting image, an F-actin cytoskeleton stain channel of a cell cluster. (b-e) Different intensity sampling problems introduced into the same image. 
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ```{admonition} Exercise
@@ -140,7 +140,7 @@ Analyze > Histogram (Ctrl + H; Mac: ⌘ + H)
 
 Image Histogram: the number of pixels (y-axis) is plotted over the gray values (x-axis).
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 The image histogram shows the intensity distributions over all pixels (black plots), with the x-axis plotting the gray values and the y-axis plotting the number of pixels {numref}`histogram_good`. 
@@ -154,7 +154,7 @@ The image histogram shows the intensity distributions over all pixels (black plo
 
 Information in the histogram: (a) The dark pixels of the background (note the offset). (b) The higher gray values of the signal that are distributed over a larger gray value range. (c) The entire range of gray values currently visualized in the display. Since it is an 8-bit image, the entire bit range of the image is displayed. 
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 There are two peaks, see {numref}`histogram_annotated`. (a) The first sharp peak has many pixels with low gray values. These values correspond mostly to the background of the image (e.g., dark pixels). (b) The second flatter peak shows pixels with a wide distribution over different larger gray values. These correspond to the signal from the imaged object. (c) Below you will find a calibration bar that shows the minimum and maximum values displayed and their corresponding displayed gray value. 
@@ -172,7 +172,7 @@ The second peak is often not easily visible. Thus, we can apply a log scale on t
 
 Histogram with log scale
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 Now we would like to understand what constitutes a well-acquired image based on its histogram. In general, good original microscopy images preserve both the low and high intensity values and show a varying signal. We can see this clearly in {numref}`histogram_demonstrated`:
@@ -201,7 +201,9 @@ Since we now understand how a regular histogram should look, we can study differ
 - [d_image.png](./image_histogram_resources/d_image.png)
 - [e_image.png](./image_histogram_resources/e_image.png)
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+:::{div} figure-legend
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped.
+:::
 
 ```{admonition} Exercise
 :class: tip
@@ -226,7 +228,7 @@ This is not necessarily a corrupted or unusable image. Under certain conditions,
 
 Low contrast. The full range of the histogram is not utilized.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ### Low intensity cut
@@ -243,7 +245,7 @@ This can severely impact image measurements. When measuring object size, dim edg
 
 Low intensity values cut, no offset. Note the peak at the lowest gray value, indicating that the low signal is pushed down to the same minimum value.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ### High intensity clipped
@@ -260,7 +262,7 @@ This severely impacts the resolution of different structures, since details in t
 
 High intensity values cut, i.e., clipped. The image is oversaturated. Note the peak at the highest gray value, indicating that the high signal is pushed to the same maximum value.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 :::{note}
@@ -285,7 +287,7 @@ As with the previous examples, this makes accurate quantitative comparison unrel
 
 Histogram rescaled non-continuous intensity distribution.
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ## Solution 
@@ -299,5 +301,5 @@ Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isc
 
 Images demonstrating different intensity sampling errors. (a) The starting image, an F-actin cytoskeleton stain channel of a cell cluster. (b) Low contrast image. (c) Low intensities cut off. (d) Oversaturated image with high intensities clipped. (e) Histogram resampled. 
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (cropped, adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```

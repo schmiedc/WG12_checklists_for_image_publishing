@@ -38,7 +38,7 @@ Microscopy images are data that document a scientific result. To communicate the
 
 The same multi-channel image visualized in different forms, all failing to communicate its content. (a) Blue, green, red, and yellow look-up tables overlap and blend, obscuring individual channels. (b) All channels rendered in grayscale, making them indistinguishable. (c) Brightness and contrast processed incorrectly, leaving the image too dark.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ## Key considerations
@@ -78,7 +78,7 @@ Nocodazole treated U-2 OS cells.
 ::::
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445).
 :::
 
 ```{admonition}  Think about it
@@ -99,7 +99,7 @@ The acquired images have four channels for the major cellular compartments (Nucl
 
 Final result of course example.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted brightness/contrast, LUTs, cropped, added annotations). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 ## Selecting images for visualization
@@ -118,7 +118,7 @@ For instance picking an unusually striking or atypical example (an "edge of dist
 This tutorial starts with a multi-channel image ({numref}`multichannel_image`). Download a TIFF of the example image here: [multichannel_image.tif](./unit-1_resources/unit-1_examples/multichannel_image.tif).
 
 :::{div} figure-legend
-Image: Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445).
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445).
 :::
 
 Open Fiji.
@@ -144,7 +144,7 @@ File > Open... (or drag and drop image into Fiji task bar)
 
 Multichannel image
 
-Image: Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445).
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445).
 ```
 
 :::{tip}
@@ -191,7 +191,7 @@ Channel 4
 ::::
 
 :::{div} figure-legend
-Images: Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445).
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445).
 :::
 
 Each of the channels encodes different cellular compartments. 
@@ -293,7 +293,7 @@ Channel 3
 ::::
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped.
 :::
 
 :::{tip}
@@ -320,7 +320,7 @@ Since the perception of the information in an image is influenced by the color c
 
 Effect of different LUTs on the visualization of the image data. Same image crop with the same brightness/contrast settings. The blue channel gives the worst visualization as almost none of the detail is visible. This is closely followed by red. Green is better, though some details are still harder to see than in the grayscale version.
 
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted brightness/contrast and LUTs). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 Select image: C1-multichannel_image.tif
@@ -368,7 +368,7 @@ Channel 4
 ::::
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted. 
 :::
 
 Save these images for further sharing:
@@ -405,7 +405,7 @@ Channel 3
 ::::
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted.
 :::
 
 Select one of the channels: C1-multichannel_image.tif
@@ -480,7 +480,7 @@ Background cut too much: Note loss of lower intensity information.
 ::::
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted. Figure(s): Figure: Composed by Christopher Schmied, CC BY 4.0.
 :::
 
 ## Adjust brightness/contrast
@@ -511,7 +511,7 @@ Channel 3: Min = 36; Max = 1270
 ::::
 
 :::{div} figure-legend
-Images: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted.
 :::
 
 The information in the single-channel image is now clearly visible in the display without large loss of data (i.e., loss of low intensity information or oversaturation).
@@ -542,7 +542,7 @@ Provide calibration bar: Analyze > Tools > Calibration Bar…
 
 Calibration bar
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast, added annotation). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted. Figure(s): Composed by Christopher Schmied, CC BY 4.0.
 ```
 
 In this course, we provide the minimum and maximum settings in the methods for each channel and the original image used for the image figure in a Zenodo repository. Since our example does not use calibrated intensity values, an additional calibration bar is not needed.
@@ -584,7 +584,7 @@ The individual channels then get merged into a composite image (i.e., all channe
 
 Composite image
 
-Image: Adapted from Christopher Wolff (CC0), from [https://doi.org/10.1016/j.isci.2025.112445](https://doi.org/10.1016/j.isci.2025.112445). Modified by Christopher Schmied (adjusted LUTs, brightness/contrast). Modified version licensed under CC BY 4.0. 
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted. 
 ```
 
 ## Save result
