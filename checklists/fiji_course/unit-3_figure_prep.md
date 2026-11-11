@@ -135,6 +135,8 @@ Open all images for export. You can then export all the images as .svg files:
 
 Plugins > BioVoxxel Figure Tools > Export all images as SVG
 
+Select a Target folder and press ok. You may also selecte "Keep multichannel composite".
+
 ```{figure} ./unit-3_resources/figure/export_all_svg.png
 :alt: In
 :align: center
@@ -168,6 +170,37 @@ Open the template in Inkscape:
 
 Figure template in inkscape.
 ```
+
+## Overview over core inkscape interface
+
+An official tutorial you find here: [Inkscape Beginners’ Guide](https://inkscape-manuals.readthedocs.io/en/latest/).
+
+```{figure} ./unit-3_resources/inkscape/inkscape_interface_overview.png
+:alt: In
+:align: center
+:name: Figure_template
+:width: 100%
+
+Overview of the main Inkscape interface: (a) Menu bar. (b) Tool Controls bar: its options change depending on the active tool. (c) Toolbox: tools for creating and editing objects. In this course we only use the Selector (arrow) and the Text tool (A|). (d) Canvas and page: the white page is your figure; only what lies on the page is exported. (e) Docked dialogs: where most of the work happens (here the Export dialog is open). (f) Color palette and status bar.
+```
+
+Important docked dialogs (most explained in more detail later):
+* Document Properties (`Ctrl+Shift+D`): page size and units - already set with template.
+* Layers and Objects (`Ctrl+Shift+L`): organize and find the elements of your figure.
+* Fill and Stroke (`Ctrl+Shift+F`): colors of objects and their outlines.
+* Text and Font (`Ctrl+Shift+T`): font family, size and style.
+* Align and Distribute (`Ctrl+Shift+A`): line up panels and labels precisely.
+* Export (`Ctrl+Shift+E`): save the figure as PNG, PDF or SVG.
+
+Dialogs open as tabs in the docked area (e). Click a tab to switch, or close it with the x. If a dialog disappears, reopen it via the menu or its shortcut.
+
+Navigation:
+* Pan (move around the canvas): hold the middle mouse button and drag, or hold Space and drag
+* Scroll up & down: mouse wheel
+* Scroll left & right: Shift + mouse wheel
+* Zoom: Ctrl + mouse wheel
+* Shortcuts: `1` zoom to 100%, `3` zoom to selection, `5` fit page
+
 
 ## Import images into inkscape
 
@@ -207,11 +240,13 @@ Resize image panel to fit the figure. Note the lock on the aspect ratio, used to
 Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
 
+To move different objects on the canvas/page use the selector (cursor in the tool bar) and then select the object and drag on the canvas. 
+
 ## Modify scale bar
 
 Next, you can select an annotation in Layers and Objects. Modify the size and location of the annotation.
 
-Layer > Layers and Objects...
+Layer > Layers and Objects... (`Ctrl+Shift+L`)
 
 ```{figure} ./unit-3_resources/annotations/inkscape_layers_objects.png
 :alt: In
@@ -229,7 +264,6 @@ Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](h
 Ensure that the annotations are legible. Make sure the annotations do not obscure any data.
 
 :::
-
 
 ```{figure} ./unit-3_resources/annotations/inkscape_annotations.png
 :alt: In
@@ -273,7 +307,6 @@ If different image panels have the same scale bar, you can put the scale bar in 
 
 :::
 
-
 ## Modify ROIs
 
 In Inkscape (or any other vector graphics tool), we can then add other annotations. We recommend adding all important annotations that are needed to easily interpret the image figures directly in the image figure. Specifically for multichannel images, an explanation of the colors should be provided. 
@@ -293,7 +326,7 @@ Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](h
 
 The appearance of the ROI can then be modified via:
 
-Object > Fill and Stroke...
+Object > Fill and Stroke... (`Ctrl+Shift+F`)
 
 For changing the color, select the Stroke tab. In the Fill and Stroke interface select the "Stroke Paint" tab.
 
@@ -346,13 +379,76 @@ Consider adding annotations, such as cell type and treatment, to help the viewer
 ```{figure} ./unit-3_resources/annotations/annotated_panel.png
 :alt: In
 :align: center
-:name: annotated_image
+:name: text_and_font
 :width: 100%
 
-Example of possible annotations in an image.
-
-Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
+Add text annotations.
 ```
+
+
+### Text labels
+
+Add text with the *text tool* (A|) and then modify fonts and font size using: 
+
+Text and Font: Text > Text and Font... (`Ctrl+Shift+T`)
+
+```{figure} ./unit-3_resources/inkscape/text_and_font.png
+:alt: In
+:align: center
+:name: annotated_image
+:width: 75%
+
+Example of possible annotations in an image.
+```
+
+### Arrows
+
+Draw a line: Select the Pen (Bezier) tool (B)
+
+Add the arrowhead via Fill and Stroke: Object > Fill and Stroke... (`Ctrl+Shift+F`)
+
+Adjust look: Set the stroke width, change the size of the line if you only want the arrow head. Change color via stroke paint.   
+
+
+```{figure} ./unit-3_resources/inkscape/arrows.png
+:alt: In
+:align: center
+:name: annotated_image
+:width: 75%
+
+Example of possible annotations in an image.
+```
+
+### Quickly structure multiple objects
+
+You can align multiple objects using:
+
+Align and Distribute: Object > Align and Distribute... (`Ctrl+Shift+A`)
+
+```{figure} ./unit-3_resources/inkscape/align_distribute.png
+:alt: In
+:align: center
+:name: align_distribute
+:width: 50%
+
+Align and distribute different objects. 
+```
+
+:::{tip}
+
+When moving objects, you may notice that they sometimes jump to or "cling" to other objects, the page border or grid lines. This behaviour is called snapping and helps you align objects precisely. You can toggle it with the snapping icon in the top right corner or with the `%` key.
+
+
+```{figure} ./unit-3_resources/inkscape/snapping.png
+:alt: In
+:align: center
+:name: snapping
+:width: 50%
+
+Toggle the snapping behaviour. 
+```
+
+:::
 
 
 ## Export image figure

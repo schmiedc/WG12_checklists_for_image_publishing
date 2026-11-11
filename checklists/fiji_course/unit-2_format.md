@@ -200,6 +200,10 @@ The scale bar depends on the pixel size. This information is typically deposited
 
 The correct pixel size can be verified and changed in Fiji via: 
 
+<!---
+# One can set the scale like this. But it is complicated. Better via  Image > Properties > Adjust pixel width
+
+
 Analyze > Set Scale...
 
 ```{figure} ./unit-2_resources/annotate/set_scale.png
@@ -212,6 +216,22 @@ Verify and set the correct pixel size before creating scale bars.
 
 Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
 ```
+-->
+Image > Properties...
+
+Then you can verify and if needed adjust *Pixel width* and *Pixel height* for 2D images. For 3D stacks adjust also *Voxel depth*.
+
+```{figure} ./unit-2_resources/annotate/set_scale2.png
+:alt: In
+:align: center
+:name: set_scale
+:width: 100%
+
+Verify and set the correct pixel size before creating scale bars.
+
+Original image(s): Christopher Wolff (CC0), from [Wolff et al. 2025, iScience](https://doi.org/10.1016/j.isci.2025.112445). Brightness/contrast and LUTs adjusted, cropped and annotated. Figure: Composed by Christopher Schmied, CC BY 4.0.
+```
+
 
 After the correct pixel size has been verified, the scale bar can be created in Fiji via:
 
